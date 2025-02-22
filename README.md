@@ -14,3 +14,4 @@ This repository implements a **Machine Learning (ML) + Genetic Algorithm (GA) pi
 ✅ Validates motifs by comparing with **known functional regions (PROSITE, RBD, NTD)**  
 
 ## 📂 Project Structure  
+📁 ML-GA-Motif-Discovery ├── data/ # Raw & processed protein sequences ├── scripts/ # Python scripts for each pipeline stage ├── models/ # Trained ML models (Random Forest) ├── results/ # Evolved & validated motifs ├── README.md # Project documentation ├── implementation.py # Main pipeline script └── requirements.txt # Required dependencies
