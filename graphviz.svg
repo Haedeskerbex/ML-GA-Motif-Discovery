@@ -1,0 +1,104 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="303pt" height="593pt" viewBox="0.00 0.00 303.21 592.80">
+<g id="graph0" class="graph" transform="scale(1 1) rotate(0) translate(4 588.8)">
+<title>ML_GA_Pipeline</title>
+<polygon fill="white" stroke="none" points="-4,4 -4,-588.8 299.21,-588.8 299.21,4 -4,4"/>
+<!-- Data_Collection -->
+<g id="node1" class="node">
+<title>Data_Collection</title>
+<polygon fill="lightyellow" stroke="black" points="276.73,-584.8 273.73,-588.8 252.73,-588.8 249.73,-584.8 18.48,-584.8 18.48,-543.2 276.73,-543.2 276.73,-584.8"/>
+<text text-anchor="middle" x="147.61" y="-568.2" font-family="Times,serif" font-size="14.00">Data Collection</text>
+<text text-anchor="middle" x="147.61" y="-551.4" font-family="Times,serif" font-size="14.00">(Protein Sequences from NCBI &amp; UniProt)</text>
+</g>
+<!-- Sequence_Alignment -->
+<g id="node2" class="node">
+<title>Sequence_Alignment</title>
+<polygon fill="lightgreen" stroke="black" points="214.12,-507.2 81.09,-507.2 81.09,-465.6 214.12,-465.6 214.12,-507.2"/>
+<text text-anchor="middle" x="147.61" y="-490.6" font-family="Times,serif" font-size="14.00">Sequence Alignment</text>
+<text text-anchor="middle" x="147.61" y="-473.8" font-family="Times,serif" font-size="14.00">(Clustal Omega)</text>
+</g>
+<!-- Data_Collection&#45;&gt;Sequence_Alignment -->
+<g id="edge1" class="edge">
+<title>Data_Collection-&gt;Sequence_Alignment</title>
+<path fill="none" stroke="black" d="M147.61,-542.74C147.61,-535.39 147.61,-526.91 147.61,-518.83"/>
+<polygon fill="black" stroke="black" points="151.11,-518.97 147.61,-508.97 144.11,-518.97 151.11,-518.97"/>
+</g>
+<!-- Motif_Extraction -->
+<g id="node3" class="node">
+<title>Motif_Extraction</title>
+<polygon fill="lightpink" stroke="black" points="243.86,-429.6 51.35,-429.6 51.35,-388 243.86,-388 243.86,-429.6"/>
+<text text-anchor="middle" x="147.61" y="-413" font-family="Times,serif" font-size="14.00">Motif Extraction</text>
+<text text-anchor="middle" x="147.61" y="-396.2" font-family="Times,serif" font-size="14.00">(Conserved Regions Detection)</text>
+</g>
+<!-- Sequence_Alignment&#45;&gt;Motif_Extraction -->
+<g id="edge2" class="edge">
+<title>Sequence_Alignment-&gt;Motif_Extraction</title>
+<path fill="none" stroke="black" d="M147.61,-465.14C147.61,-457.79 147.61,-449.31 147.61,-441.23"/>
+<polygon fill="black" stroke="black" points="151.11,-441.37 147.61,-431.37 144.11,-441.37 151.11,-441.37"/>
+</g>
+<!-- Feature_Encoding -->
+<g id="node4" class="node">
+<title>Feature_Encoding</title>
+<polygon fill="lightblue" stroke="black" points="249.88,-352 45.33,-352 45.33,-310.4 249.88,-310.4 249.88,-352"/>
+<text text-anchor="middle" x="147.61" y="-335.4" font-family="Times,serif" font-size="14.00">Feature Encoding</text>
+<text text-anchor="middle" x="147.61" y="-318.6" font-family="Times,serif" font-size="14.00">(Amino Acid Frequency Vectors)</text>
+</g>
+<!-- Motif_Extraction&#45;&gt;Feature_Encoding -->
+<g id="edge3" class="edge">
+<title>Motif_Extraction-&gt;Feature_Encoding</title>
+<path fill="none" stroke="black" d="M147.61,-387.54C147.61,-380.19 147.61,-371.71 147.61,-363.63"/>
+<polygon fill="black" stroke="black" points="151.11,-363.77 147.61,-353.77 144.11,-363.77 151.11,-363.77"/>
+</g>
+<!-- ML_Training -->
+<g id="node5" class="node">
+<title>ML_Training</title>
+<polygon fill="lightgray" stroke="black" points="231.82,-274.4 63.4,-274.4 63.4,-232.8 231.82,-232.8 231.82,-274.4"/>
+<text text-anchor="middle" x="147.61" y="-257.8" font-family="Times,serif" font-size="14.00">ML Model Training</text>
+<text text-anchor="middle" x="147.61" y="-241" font-family="Times,serif" font-size="14.00">(Random Forest Classifier)</text>
+</g>
+<!-- Feature_Encoding&#45;&gt;ML_Training -->
+<g id="edge4" class="edge">
+<title>Feature_Encoding-&gt;ML_Training</title>
+<path fill="none" stroke="black" d="M147.61,-309.94C147.61,-302.59 147.61,-294.11 147.61,-286.03"/>
+<polygon fill="black" stroke="black" points="151.11,-286.17 147.61,-276.17 144.11,-286.17 151.11,-286.17"/>
+</g>
+<!-- GA_Optimization -->
+<g id="node6" class="node">
+<title>GA_Optimization</title>
+<polygon fill="lightcoral" stroke="black" points="238.82,-196.8 56.39,-196.8 56.39,-155.2 238.82,-155.2 238.82,-196.8"/>
+<text text-anchor="middle" x="147.61" y="-180.2" font-family="Times,serif" font-size="14.00">GA Optimization</text>
+<text text-anchor="middle" x="147.61" y="-163.4" font-family="Times,serif" font-size="14.00">(Evolving Significant Motifs)</text>
+</g>
+<!-- ML_Training&#45;&gt;GA_Optimization -->
+<g id="edge5" class="edge">
+<title>ML_Training-&gt;GA_Optimization</title>
+<path fill="none" stroke="black" d="M147.61,-232.34C147.61,-224.99 147.61,-216.51 147.61,-208.43"/>
+<polygon fill="black" stroke="black" points="151.11,-208.57 147.61,-198.57 144.11,-208.57 151.11,-208.57"/>
+</g>
+<!-- Motif_Validation -->
+<g id="node7" class="node">
+<title>Motif_Validation</title>
+<polygon fill="lightcyan" stroke="black" points="295.21,-119.2 0,-119.2 0,-77.6 295.21,-77.6 295.21,-119.2"/>
+<text text-anchor="middle" x="147.61" y="-102.6" font-family="Times,serif" font-size="14.00">Motif Validation</text>
+<text text-anchor="middle" x="147.61" y="-85.8" font-family="Times,serif" font-size="14.00">(Comparison with PROSITE Functional Regions)</text>
+</g>
+<!-- GA_Optimization&#45;&gt;Motif_Validation -->
+<g id="edge6" class="edge">
+<title>GA_Optimization-&gt;Motif_Validation</title>
+<path fill="none" stroke="black" d="M147.61,-154.74C147.61,-147.39 147.61,-138.91 147.61,-130.83"/>
+<polygon fill="black" stroke="black" points="151.11,-130.97 147.61,-120.97 144.11,-130.97 151.11,-130.97"/>
+</g>
+<!-- Output_Significant_Motifs -->
+<g id="node8" class="node">
+<title>Output_Significant_Motifs</title>
+<polygon fill="lightyellow" stroke="black" points="235.9,-41.6 232.9,-45.6 211.9,-45.6 208.9,-41.6 59.32,-41.6 59.32,0 235.9,0 235.9,-41.6"/>
+<text text-anchor="middle" x="147.61" y="-25" font-family="Times,serif" font-size="14.00"> Output Significant Motifs</text>
+<text text-anchor="middle" x="147.61" y="-8.2" font-family="Times,serif" font-size="14.00">(Saved for Further Analysis)</text>
+</g>
+<!-- Motif_Validation&#45;&gt;Output_Significant_Motifs -->
+<g id="edge7" class="edge">
+<title>Motif_Validation-&gt;Output_Significant_Motifs</title>
+<path fill="none" stroke="black" d="M147.61,-77.14C147.61,-69.79 147.61,-61.31 147.61,-53.23"/>
+<polygon fill="black" stroke="black" points="151.11,-53.37 147.61,-43.37 144.11,-53.37 151.11,-53.37"/>
+</g>
+</g>
+</svg>
