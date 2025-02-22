@@ -13,12 +13,11 @@ This repository implements a **Machine Learning (ML) + Genetic Algorithm (GA) pi
 ✅ Uses **Genetic Algorithm (GA)** to evolve significant motifs  
 ✅ Validates motifs by comparing with **known functional regions (PROSITE, RBD, NTD)**  
 
-## 📂 Project Structure  
-ML-GA-Motif-Discovery/ 
-│── data/ # Raw & processed protein sequences
-│── scripts/ # Python scripts for each pipeline stage
-│── models/ # Trained ML models (Random Forest)
-│── results/ # Evolved & validated motifs
-│── README.md # Project documentation
-│── implementation.py # Main pipeline script
-│── requirements.txt # Required dependencies
+
+---
+
+## 📌 Applications  
+- 🔬 **Viral evolution studies** – Identifies conserved motifs critical for viral function  
+- 🦠 **Predicting spillover events** – Detects motifs that may lead to cross-species transmission  
+- 💊 **Drug & vaccine target discovery** – Finds regions crucial for viral replication  
+
