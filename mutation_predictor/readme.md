@@ -1,6 +1,6 @@
 # Mutation Predictor
 
-This project is a real-world Mutation Predictor tool for coronaviruses, aimed at predicting significant mutations in spike protein sequences using Machine Learning (ML) models guided by Genetic Algorithms (GA). The project focuses on automating data collection, processing, and model training to create an effective mutation prediction pipeline.
+This project is a Mutation Predictor tool for coronaviruses, aimed at predicting significant mutations in spike protein sequences using Machine Learning (ML) models guided by Genetic Algorithms (GA). The project focuses on automating data collection, processing, and model training to create an effective mutation prediction pipeline.
 
 ## Objectives
 - Develop a robust mutation predictor for coronaviruses.
