@@ -1,0 +1,11 @@
+# Snakefile
+
+rule all:
+    input:
+        "db/sequences.db"
+
+rule fetch_data:
+    output:
+        "db/sequences.db"
+    script:
+        "scripts/fetch_data.py"

@@ -1,0 +1,35 @@
+host: ram-HP-Laptop-14s-fq1xxx
+Building DAG of jobs...
+Using shell: /usr/bin/bash
+Provided cores: 1 (use --cores to define parallelism)
+Rules claiming more threads will be scaled down.
+Job stats:
+job           count
+----------  -------
+all               1
+fetch_data        1
+total             2
+
+Select jobs to execute...
+Execute 1 jobs...
+
+[Sun Feb 23 08:53:43 2025]
+localrule fetch_data:
+    output: db/sequences.db
+    jobid: 1
+    reason: Code has changed since last execution
+    resources: tmpdir=/tmp
+
+RuleException:
+CalledProcessError in file /home/ram/Major Project/ML-GA-Motif-Discovery/mutation_predictor/Snakefile, line 11:
+Command 'set -euo pipefail;  /home/ram/Major Project/ML-GA-Motif-Discovery/mutation_predictor/lib/bin/python3 '/home/ram/Major Project/ML-GA-Motif-Discovery/mutation_predictor/.snakemake/scripts/tmpb2lwznv6.fetch_data.py'' returned non-zero exit status 127.
+[Sun Feb 23 08:53:43 2025]
+Error in rule fetch_data:
+    jobid: 1
+    output: db/sequences.db
+
+Shutting down, this might take some time.
+Exiting because a job execution failed. Look above for error message
+Complete log: .snakemake/log/2025-02-23T085343.337246.snakemake.log
+WorkflowError:
+At least one job did not complete successfully.
