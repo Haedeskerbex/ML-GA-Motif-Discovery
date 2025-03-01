@@ -1,3 +1,0 @@
-*.log
-.snakemake/
-db/sequences.db
