@@ -1,0 +1,4838 @@
+[
+  {
+    "type": "source",
+    "location": "[0:1273]",
+    "qualifiers": {
+      "organism": [
+        "Severe acute respiratory syndrome coronavirus 2"
+      ],
+      "host": [
+        "Homo sapiens (Human)"
+      ],
+      "db_xref": [
+        "taxon:2697049"
+      ]
+    }
+  },
+  {
+    "type": "gene",
+    "location": "[0:1273]",
+    "qualifiers": {
+      "gene": [
+        "S"
+      ],
+      "locus_tag": [
+        "2"
+      ]
+    }
+  },
+  {
+    "type": "Protein",
+    "location": "[0:1273]",
+    "qualifiers": {
+      "product": [
+        "Spike glycoprotein"
+      ],
+      "note": [
+        "S glycoprotein; E2; Peplomer protein"
+      ],
+      "UniProtKB_evidence": [
+        "Evidence at protein level"
+      ]
+    }
+  },
+  {
+    "type": "Region",
+    "location": "[0:26]",
+    "qualifiers": {
+      "region_name": [
+        "Region of interest in the sequence"
+      ],
+      "note": [
+        "Disordered. /evidence=ECO:0000305|PubMed:35108439."
+      ]
+    }
+  },
+  {
+    "type": "Region",
+    "location": "[0:13]",
+    "qualifiers": {
+      "region_name": [
+        "Signal"
+      ],
+      "note": [
+        "/evidence=ECO:0000269|PubMed:34210893."
+      ]
+    }
+  },
+  {
+    "type": "Region",
+    "location": "[4:5]",
+    "qualifiers": {
+      "region_name": [
+        "Variant"
+      ],
+      "note": [
+        "L -> F (in strain: Iota/B.1.526). /evidence=ECO:0000305."
+      ]
+    }
+  },
+  {
+    "type": "Region",
+    "location": "[12:304]",
+    "qualifiers": {
+      "region_name": [
+        "SARS-CoV-like_Spike_S1_NTD"
+      ],
+      "note": [
+        "N-terminal domain of the S1 subunit of the Spike (S) protein from Severe acute respiratory syndrome coronavirus and related betacoronaviruses in the B lineage; cd21624"
+      ],
+      "db_xref": [
+        "CDD:394950"
+      ]
+    }
+  },
+  {
+    "type": "Region",
+    "location": "[12:13]",
+    "qualifiers": {
+      "region_name": [
+        "Variant"
+      ],
+      "note": [
+        "S -> I (in strain: Epsilon/B.1.427/B.1.429; may change signal peptide cleavage to position 16-17). /evidence=ECO:0000269|PubMed:34210893, ECO:0000305."
+      ]
+    }
+  },
+  {
+    "type": "Region",
+    "location": "[13:1273]",
+    "qualifiers": {
+      "region_name": [
+        "Mature chain"
+      ],
+      "note": [
+        "Spike glycoprotein. /id=PRO_0000449646."
+      ]
+    }
+  },
+  {
+    "type": "Region",
+    "location": "[13:1213]",
+    "qualifiers": {
+      "region_name": [
+        "Topological domain"
+      ],
+      "note": [
+        "Extracellular. /evidence=ECO:0000255|HAMAP-Rule:MF_04099."
+      ]
+    }
+  },
+  {
+    "type": "Region",
+    "location": "[13:685]",
+    "qualifiers": {
+      "region_name": [
+        "Mature chain"
+      ],
+      "note": [
+        "Spike protein S1. /evidence=ECO:0000255|HAMAP-Rule:MF_04099. /id=PRO_0000449647."
+      ]
+    }
+  },
+  {
+    "type": "Region",
+    "location": "[13:303]",
+    "qualifiers": {
+      "region_name": [
+        "Domain"
+      ],
+      "note": [
+        "BetaCoV S1-NTD. /evidence=ECO:0000255|PROSITE-ProRule:PRU01270."
+      ]
+    }
+  },
+  {
+    "type": "Bond",
+    "location": "bond{[14:15], [135:136]}",
+    "qualifiers": {
+      "bond_type": [
+        "disulfide"
+      ],
+      "note": [
+        "/evidence=ECO:0000255|PROSITE-ProRule:PRU01270."
+      ]
+    }
+  },
+  {
+    "type": "Site",
+    "location": "[16:17]",
+    "qualifiers": {
+      "site_type": [
+        "glycosylation"
+      ],
+      "note": [
+        "N-linked (GlcNAc...) (complex) asparagine; by host. /evidence=ECO:0000255|HAMAP-Rule:MF_04099, ECO:0000269|PubMed:32366695, ECO:0000269|PubMed:32979942."
+      ]
+    }
+  },
+  {
+    "type": "Region",
+    "location": "[17:18]",
+    "qualifiers": {
+      "region_name": [
+        "Variant"
+      ],
+      "note": [
+        "L -> F (in strain: Beta/B.1.351, Gamma/P.1, 19B/ 501Y). /evidence=ECO:0000305, ECO:0000305|PubMed:33690265."
+      ]
+    }
+  },
+  {
+    "type": "Region",
+    "location": "[18:19]",
+    "qualifiers": {
+      "region_name": [
+        "Variant"
+      ],
+      "note": [
+        "T -> I (in strain: Omicron/BQ.1.1, Omicron/XBB.1.5, Omicron/EG.5.1). /evidence=ECO:0000305."
+      ]
+    }
+  },
+  {
+    "type": "Region",
+    "location": "[18:19]",
+    "qualifiers": {
+      "region_name": [
+        "Variant"
+      ],
+      "note": [
+        "T -> R (in strain: Delta/B.1.617.2, Omicron/BA.2, Omicron/BA.2.12.1, Omicron/BA.2.75, Omicron/BA.4, Omicron/ BA.5). /evidence=ECO:0000305."
+      ]
+    }
+  },
+  {
+    "type": "Region",
+    "location": "[19:23]",
+    "qualifiers": {
+      "region_name": [
+        "Beta-strand region"
+      ],
+      "note": [
+        "/evidence=ECO:0007829|PDB:8DM3."
+      ]
+    }
+  },
+  {
+    "type": "Region",
+    "location": "[19:20]",
+    "qualifiers": {
+      "region_name": [
+        "Variant"
+      ],
+      "note": [
+        "T -> N (in strain: Gamma/P.1). /evidence=ECO:0000305."
+      ]
+    }
+  },
+  {
+    "type": "Region",
+    "location": "[23:27]",
+    "qualifiers": {
+      "region_name": [
+        "Variant"
+      ],
+      "note": [
+        "LPPA -> S (in strain: Omicron/BA.2, Omicron/ BA.2.12.1, Omicron/BA.2.75, Omicron/BA.4, Omicron/BA.5, Omicron/BQ.1.1, Omicron/XBB.1.5, Omicron/EG.5.1). /evidence=ECO:0000305."
+      ]
+    }
+  },
+  {
+    "type": "Region",
+    "location": "[25:26]",
+    "qualifiers": {
+      "region_name": [
+        "Variant"
+      ],
+      "note": [
+        "P -> S (in strain: Gamma/P.1). /evidence=ECO:0000305."
+      ]
+    }
+  },
+  {
+    "type": "Region",
+    "location": "[26:30]",
+    "qualifiers": {
+      "region_name": [
+        "Beta-strand region"
+      ],
+      "note": [
+        "/evidence=ECO:0007829|PDB:7B62."
+      ]
+    }
+  },
+  {
+    "type": "Region",
+    "location": "[34:37]",
+    "qualifiers": {
+      "region_name": [
+        "Beta-strand region"
+      ],
+      "note": [
+        "/evidence=ECO:0007829|PDB:8A99."
+      ]
+    }
+  },
+  {
+    "type": "Site",
+    "location": "order{[37:38], [40:44], [112:113], [114:115], [166:167], [197:200], [224:225], [227:228], [229:234], [280:283]}",
+    "qualifiers": {
+      "site_type": [
+        "other"
+      ],
+      "note": [
+        "trimer interface [polypeptide binding]"
+      ],
+      "db_xref": [
+        "CDD:394950"
+      ]
+    }
+  },
+  {
+    "type": "Region",
+    "location": "[39:43]",
+    "qualifiers": {
+      "region_name": [
+        "Beta-strand region"
+      ],
+      "note": [
+        "/evidence=ECO:0007829|PDB:8DLW."
+      ]
+    }
+  },
+  {
+    "type": "Region",
+    "location": "[45:55]",
+    "qualifiers": {
+      "region_name": [
+        "Beta-strand region"
+      ],
+      "note": [
+        "/evidence=ECO:0007829|PDB:7B62."
+      ]
+    }
+  },
+  {
+    "type": "Region",
+    "location": "[51:52]",
+    "qualifiers": {
+      "region_name": [
+        "Variant"
+      ],
+      "note": [
+        "Q -> H (in strain: Omicron/EG.5.1). /evidence=ECO:0000305."
+      ]
+    }
+  },
+  {
+    "type": "Region",
+    "location": "[60:69]",
+    "qualifiers": {
+      "region_name": [
+        "Beta-strand region"
+      ],
+      "note": [
+        "/evidence=ECO:0007829|PDB:7B62."
+      ]
+    }
+  },
+  {
+    "type": "Site",
+    "location": "[60:61]",
+    "qualifiers": {
+      "site_type": [
+        "glycosylation"
+      ],
+      "note": [
+        "N-linked (GlcNAc...) (hybrid) asparagine; by host. /evidence=ECO:0000255|HAMAP-Rule:MF_04099, ECO:0000269|PubMed:32155444, ECO:0000269|PubMed:32363391, ECO:0000269|PubMed:32366695, ECO:0000269|PubMed:32979942."
+      ]
+    }
+  },
+  {
+    "type": "Region",
+    "location": "[66:80]",
+    "qualifiers": {
+      "region_name": [
+        "Region of interest in the sequence"
+      ],
+      "note": [
+        "Disordered. /evidence=ECO:0000305|PubMed:35108439."
+      ]
+    }
+  },
+  {
+    "type": "Region",
+    "location": "[66:67]",
+    "qualifiers": {
+      "region_name": [
+        "Variant"
+      ],
+      "note": [
+        "A -> V (in strain: Eta/B.1.525, Omicron/BA.1). /evidence=ECO:0000305."
+      ]
+    }
+  },
+  {
+    "type": "Region",
+    "location": "[68:70]",
+    "qualifiers": {
+      "region_name": [
+        "Variant"
+      ],
+      "note": [
+        "Missing (in strain: Alpha/B.1.1.7, Eta/B.1.525, 19B/ 501T, Omicron/BA.1, Omicron/BA.4, Omicron/BA.5, Omicron/ BQ.1.1; May compensate for reduced infectivity of RBD escape mutants). /evidence=ECO:0000269|PubMed:34166617, ECO:0000305|PubMed:33413740."
+      ]
+    }
+  },
+  {
+    "type": "Site",
+    "location": "[68:70]",
+    "qualifiers": {
+      "site_type": [
+        "mutagenized"
+      ],
+      "note": [
+        "Missing: Increased incorporation of cleaved spike into virions. /evidence=ECO:0000269|PubMed:34166617."
+      ]
+    }
+  },
+  {
+    "type": "Region",
+    "location": "[71:74]",
+    "qualifiers": {
+      "region_name": [
+        "Beta-strand region"
+      ],
+      "note": [
+        "/evidence=ECO:0007829|PDB:7QUR."
+      ]
+    }
+  },
+  {
+    "type": "Site",
+    "location": "[73:74]",
+    "qualifiers": {
+      "site_type": [
+        "glycosylation"
+      ],
+      "note": [
+        "N-linked (GlcNAc...) (complex) asparagine; by host. /evidence=ECO:0000255|HAMAP-Rule:MF_04099, ECO:0000269|PubMed:32363391, ECO:0000269|PubMed:32366695, ECO:0000269|PubMed:32979942."
+      ]
+    }
+  },
+  {
+    "type": "Region",
+    "location": "[74:75]",
+    "qualifiers": {
+      "region_name": [
+        "Variant"
+      ],
+      "note": [
+        "G -> V (in strain: Lambda/C.37). /evidence=ECO:0000305."
+      ]
+    }
+  },
+  {
+    "type": "Region",
+    "location": "[75:76]",
+    "qualifiers": {
+      "region_name": [
+        "Variant"
+      ],
+      "note": [
+        "T -> I (in strain: Lambda/C.37). /evidence=ECO:0000305."
+      ]
+    }
+  },
+  {
+    "type": "Region",
+    "location": "[76:79]",
+    "qualifiers": {
+      "region_name": [
+        "Beta-strand region"
+      ],
+      "note": [
+        "/evidence=ECO:0007829|PDB:7B62."
+      ]
+    }
+  },
+  {
+    "type": "Region",
+    "location": "[79:80]",
+    "qualifiers": {
+      "region_name": [
+        "Variant"
+      ],
+      "note": [
+        "D -> A (in strain: Beta/B.1.351). /evidence=ECO:0000305|PubMed:33690265."
+      ]
+    }
+  },
+  {
+    "type": "Region",
+    "location": "[82:85]",
+    "qualifiers": {
+      "region_name": [
+        "Beta-strand region"
+      ],
+      "note": [
+        "/evidence=ECO:0007829|PDB:7B62."
+      ]
+    }
+  },
+  {
+    "type": "Region",
+    "location": "[82:83]",
+    "qualifiers": {
+      "region_name": [
+        "Variant"
+      ],
+      "note": [
+        "V -> A (in strain: Omicron/XBB.1.5, Omicron/EG.5.1). /evidence=ECO:0000305."
+      ]
+    }
+  },
+  {
+    "type": "Region",
+    "location": "[85:88]",
+    "qualifiers": {
+      "region_name": [
+        "Helical region"
+      ],
+      "note": [
+        "/evidence=ECO:0007829|PDB:7WK2."
+      ]
+    }
+  },
+  {
+    "type": "Region",
+    "location": "[89:98]",
+    "qualifiers": {
+      "region_name": [
+        "Beta-strand region"
+      ],
+      "note": [
+        "/evidence=ECO:0007829|PDB:7B62."
+      ]
+    }
+  },
+  {
+    "type": "Region",
+    "location": "[94:95]",
+    "qualifiers": {
+      "region_name": [
+        "Variant"
+      ],
+      "note": [
+        "T -> I (in strain: Iota/B.1.526, Mu/B.1.621, B.1.1.318, Omicron/BA.1). /evidence=ECO:0000305."
+      ]
+    }
+  },
+  {
+    "type": "Region",
+    "location": "[100:109]",
+    "qualifiers": {
+      "region_name": [
+        "Beta-strand region"
+      ],
+      "note": [
+        "/evidence=ECO:0007829|PDB:7B62."
+      ]
+    }
+  },
+  {
+    "type": "Region",
+    "location": "[101:102]",
+    "qualifiers": {
+      "region_name": [
+        "Variant"
+      ],
+      "note": [
+        "R -> I (in strain: A23.1). /evidence=ECO:0000305."
+      ]
+    }
+  },
+  {
+    "type": "Region",
+    "location": "[110:114]",
+    "qualifiers": {
+      "region_name": [
+        "Beta-strand region"
+      ],
+      "note": [
+        "/evidence=ECO:0007829|PDB:8DLW."
+      ]
+    }
+  },
+  {
+    "type": "Region",
+    "location": "[115:121]",
+    "qualifiers": {
+      "region_name": [
+        "Beta-strand region"
+      ],
+      "note": [
+        "/evidence=ECO:0007829|PDB:7B62."
+      ]
+    }
+  },
+  {
+    "type": "Site",
+    "location": "[120:121]",
+    "qualifiers": {
+      "site_type": [
+        "mutagenized"
+      ],
+      "note": [
+        "N->Q: Partial loss of biliverdin affinity. /evidence=ECO:0000269|PubMed:33888467."
+      ]
+    }
+  },
+  {
+    "type": "Region",
+    "location": "[121:124]",
+    "qualifiers": {
+      "region_name": [
+        "Beta-strand region"
+      ],
+      "note": [
+        "/evidence=ECO:0007829|PDB:8A94."
+      ]
+    }
+  },
+  {
+    "type": "Site",
+    "location": "[121:122]",
+    "qualifiers": {
+      "site_type": [
+        "glycosylation"
+      ],
+      "note": [
+        "N-linked (GlcNAc...) (hybrid) asparagine; by host. /evidence=ECO:0000255|HAMAP-Rule:MF_04099, ECO:0000269|PubMed:32155444, ECO:0000269|PubMed:32363391, ECO:0000269|PubMed:32366695, ECO:0000269|PubMed:32979942."
+      ]
+    }
+  },
+  {
+    "type": "Region",
+    "location": "[125:146]",
+    "qualifiers": {
+      "region_name": [
+        "Beta-strand region"
+      ],
+      "note": [
+        "/evidence=ECO:0007829|PDB:7B62."
+      ]
+    }
+  },
+  {
+    "type": "Bond",
+    "location": "bond{[130:131], [165:166]}",
+    "qualifiers": {
+      "bond_type": [
+        "disulfide"
+      ],
+      "note": [
+        "/evidence=ECO:0000255|PROSITE-ProRule:PRU01270, ECO:0000269|PubMed:32155444, ECO:0007744|PDB:6VXX."
+      ]
+    }
+  },
+  {
+    "type": "Region",
+    "location": "[137:138]",
+    "qualifiers": {
+      "region_name": [
+        "Variant"
+      ],
+      "note": [
+        "D -> Y (in strain: Gamma/P.1). /evidence=ECO:0000305."
+      ]
+    }
+  },
+  {
+    "type": "Region",
+    "location": "[141:164]",
+    "qualifiers": {
+      "region_name": [
+        "Region of interest in the sequence"
+      ],
+      "note": [
+        "Disordered. /evidence=ECO:0000305|PubMed:35108439."
+      ]
+    }
+  },
+  {
+    "type": "Region",
+    "location": "[141:145]",
+    "qualifiers": {
+      "region_name": [
+        "Variant"
+      ],
+      "note": [
+        "GVYY -> D (in strain: Omicron/BA.1). /evidence=ECO:0000305."
+      ]
+    }
+  },
+  {
+    "type": "Region",
+    "location": "[141:142]",
+    "qualifiers": {
+      "region_name": [
+        "Variant"
+      ],
+      "note": [
+        "G -> D (in strain: Kappa/B.1.617.1, Omicron/BA.2, Omicron/BA.2.12.1, Omicron/BA.2.75, Omicron/BA.4, Omicron/ BA.5, Omicron/BQ.1.1, Omicron/XBB.1.5, Omicron/EG.5.1). /evidence=ECO:0000305."
+      ]
+    }
+  },
+  {
+    "type": "Region",
+    "location": "[143:144]",
+    "qualifiers": {
+      "region_name": [
+        "Variant"
+      ],
+      "note": [
+        "Missing (in strain: Alpha/B.1.1.7, Eta/B.1.525, B.1.1.318, Omicron/XBB.1.5, Omicron/EG.5.1). /evidence=ECO:0000305, ECO:0000305|PubMed:33413740."
+      ]
+    }
+  },
+  {
+    "type": "Region",
+    "location": "[145:146]",
+    "qualifiers": {
+      "region_name": [
+        "Variant"
+      ],
+      "note": [
+        "H -> Q (in strain: Omicron/XBB.1.5, Omicron/EG.5.1). /evidence=ECO:0000305."
+      ]
+    }
+  },
+  {
+    "type": "Region",
+    "location": "[146:150]",
+    "qualifiers": {
+      "region_name": [
+        "Hydrogen bonded turn"
+      ],
+      "note": [
+        "/evidence=ECO:0007829|PDB:7B62."
+      ]
+    }
+  },
+  {
+    "type": "Region",
+    "location": "[146:147]",
+    "qualifiers": {
+      "region_name": [
+        "Variant"
+      ],
+      "note": [
+        "K -> E (in strain: Omicron/BA.2.75). /evidence=ECO:0000305."
+      ]
+    }
+  },
+  {
+    "type": "Site",
+    "location": "[148:149]",
+    "qualifiers": {
+      "site_type": [
+        "glycosylation"
+      ],
+      "note": [
+        "N-linked (GlcNAc...) (complex) asparagine; by host. /evidence=ECO:0000255|HAMAP-Rule:MF_04099, ECO:0000269|PubMed:32363391, ECO:0000269|PubMed:32366695, ECO:0000269|PubMed:32979942."
+      ]
+    }
+  },
+  {
+    "type": "Region",
+    "location": "[150:171]",
+    "qualifiers": {
+      "region_name": [
+        "Beta-strand region"
+      ],
+      "note": [
+        "/evidence=ECO:0007829|PDB:7B62."
+      ]
+    }
+  },
+  {
+    "type": "Region",
+    "location": "[151:152]",
+    "qualifiers": {
+      "region_name": [
+        "Variant"
+      ],
+      "note": [
+        "W -> C (in strain: Epsilon/B.1.427/B.1.429; when coupled with S13I induces resistance to NTD antibodies by changing disulfid bond in positions 15-136 to 136-152). /evidence=ECO:0000269|PubMed:34210893, ECO:0000305."
+      ]
+    }
+  },
+  {
+    "type": "Region",
+    "location": "[151:152]",
+    "qualifiers": {
+      "region_name": [
+        "Variant"
+      ],
+      "note": [
+        "W -> R (in strain: Omicron/BA.2.75). /evidence=ECO:0000305."
+      ]
+    }
+  },
+  {
+    "type": "Region",
+    "location": "[153:154]",
+    "qualifiers": {
+      "region_name": [
+        "Variant"
+      ],
+      "note": [
+        "E -> K (in strain: Kappa/B.1.617.1). /evidence=ECO:0000305."
+      ]
+    }
+  },
+  {
+    "type": "Region",
+    "location": "[155:158]",
+    "qualifiers": {
+      "region_name": [
+        "Variant"
+      ],
+      "note": [
+        "EFR -> G (in strain: Delta/B.1.617.2)."
+      ]
+    }
+  },
+  {
+    "type": "Region",
+    "location": "[156:157]",
+    "qualifiers": {
+      "region_name": [
+        "Variant"
+      ],
+      "note": [
+        "F -> L (in strain: A23.1, Omicron/BA.2.75). /evidence=ECO:0000305."
+      ]
+    }
+  },
+  {
+    "type": "Site",
+    "location": "[164:165]",
+    "qualifiers": {
+      "site_type": [
+        "glycosylation"
+      ],
+      "note": [
+        "N-linked (GlcNAc...) (complex) asparagine; by host. /evidence=ECO:0000255|HAMAP-Rule:MF_04099, ECO:0000269|PubMed:32155444, ECO:0000269|PubMed:32363391, ECO:0000269|PubMed:32366695, ECO:0000269|PubMed:32979942."
+      ]
+    }
+  },
+  {
+    "type": "Region",
+    "location": "[172:185]",
+    "qualifiers": {
+      "region_name": [
+        "Region of interest in the sequence"
+      ],
+      "note": [
+        "Disordered. /evidence=ECO:0000305|PubMed:35108439."
+      ]
+    }
+  },
+  {
+    "type": "Region",
+    "location": "[178:181]",
+    "qualifiers": {
+      "region_name": [
+        "Beta-strand region"
+      ],
+      "note": [
+        "/evidence=ECO:0007829|PDB:7KQE."
+      ]
+    }
+  },
+  {
+    "type": "Region",
+    "location": "[182:183]",
+    "qualifiers": {
+      "region_name": [
+        "Variant"
+      ],
+      "note": [
+        "Q -> E (in strain: Omicron/XBB.1.5, Omicron/EG.5.1). /evidence=ECO:0000305."
+      ]
+    }
+  },
+  {
+    "type": "Region",
+    "location": "[183:197]",
+    "qualifiers": {
+      "region_name": [
+        "Beta-strand region"
+      ],
+      "note": [
+        "/evidence=ECO:0007829|PDB:7B62."
+      ]
+    }
+  },
+  {
+    "type": "Region",
+    "location": "[189:190]",
+    "qualifiers": {
+      "region_name": [
+        "Variant"
+      ],
+      "note": [
+        "R -> S (in strain: Gamma/P.1). /evidence=ECO:0000305."
+      ]
+    }
+  },
+  {
+    "type": "Site",
+    "location": "[189:190]",
+    "qualifiers": {
+      "site_type": [
+        "mutagenized"
+      ],
+      "note": [
+        "R->K: Partial loss of biliverdin affinity. /evidence=ECO:0000269|PubMed:33888467."
+      ]
+    }
+  },
+  {
+    "type": "Region",
+    "location": "[199:215]",
+    "qualifiers": {
+      "region_name": [
+        "Beta-strand region"
+      ],
+      "note": [
+        "/evidence=ECO:0007829|PDB:7B62."
+      ]
+    }
+  },
+  {
+    "type": "Region",
+    "location": "[209:210]",
+    "qualifiers": {
+      "region_name": [
+        "Variant"
+      ],
+      "note": [
+        "I -> V (in strain: Omicron/BA.2.75). /evidence=ECO:0000305."
+      ]
+    }
+  },
+  {
+    "type": "Region",
+    "location": "[210:212]",
+    "qualifiers": {
+      "region_name": [
+        "Variant"
+      ],
+      "note": [
+        "NL -> I (in strain: Omicron/BA.1). /evidence=ECO:0000305."
+      ]
+    }
+  },
+  {
+    "type": "Region",
+    "location": "[212:213]",
+    "qualifiers": {
+      "region_name": [
+        "Variant"
+      ],
+      "note": [
+        "V -> E (in strain: Omicron/XBB.1.5, Omicron/EG.5.1). /evidence=ECO:0000305."
+      ]
+    }
+  },
+  {
+    "type": "Region",
+    "location": "[212:213]",
+    "qualifiers": {
+      "region_name": [
+        "Variant"
+      ],
+      "note": [
+        "V -> G (in strain: Omicron/BA.2, Omicron/BA.2.12.1, Omicron/BA.2.75, Omicron/BA.4, Omicron/BA.5, Omicron/ BQ.1.1). /evidence=ECO:0000305."
+      ]
+    }
+  },
+  {
+    "type": "Region",
+    "location": "[213:214]",
+    "qualifiers": {
+      "region_name": [
+        "Variant"
+      ],
+      "note": [
+        "R -> REPE (in strain: Omicron/BA.1). /evidence=ECO:0000305."
+      ]
+    }
+  },
+  {
+    "type": "Region",
+    "location": "[214:215]",
+    "qualifiers": {
+      "region_name": [
+        "Variant"
+      ],
+      "note": [
+        "D -> G (in strain: Beta/B.1.351). /evidence=ECO:0000305|PubMed:33690265."
+      ]
+    }
+  },
+  {
+    "type": "Region",
+    "location": "[218:222]",
+    "qualifiers": {
+      "region_name": [
+        "Beta-strand region"
+      ],
+      "note": [
+        "/evidence=ECO:0007829|PDB:7CN4."
+      ]
+    }
+  },
+  {
+    "type": "Region",
+    "location": "[221:222]",
+    "qualifiers": {
+      "region_name": [
+        "Variant"
+      ],
+      "note": [
+        "A -> V (in strain: 20A.EU1). /evidence=ECO:0000305."
+      ]
+    }
+  },
+  {
+    "type": "Region",
+    "location": "[222:230]",
+    "qualifiers": {
+      "region_name": [
+        "Beta-strand region"
+      ],
+      "note": [
+        "/evidence=ECO:0007829|PDB:7B62."
+      ]
+    }
+  },
+  {
+    "type": "Site",
+    "location": "[233:234]",
+    "qualifiers": {
+      "site_type": [
+        "mutagenized"
+      ],
+      "note": [
+        "N->Q: Increased resistance to neutralizing antibodies. /evidence=ECO:0000269|PubMed:32730807."
+      ]
+    }
+  },
+  {
+    "type": "Site",
+    "location": "[233:234]",
+    "qualifiers": {
+      "site_type": [
+        "glycosylation"
+      ],
+      "note": [
+        "N-linked (GlcNAc...) (high mannose) asparagine; by host. /evidence=ECO:0000255|HAMAP-Rule:MF_04099, ECO:0000269|PubMed:32155444, ECO:0000269|PubMed:32363391, ECO:0000269|PubMed:32366695, ECO:0000269|PubMed:32979942."
+      ]
+    }
+  },
+  {
+    "type": "Region",
+    "location": "[236:247]",
+    "qualifiers": {
+      "region_name": [
+        "Beta-strand region"
+      ],
+      "note": [
+        "/evidence=ECO:0007829|PDB:7B62."
+      ]
+    }
+  },
+  {
+    "type": "Region",
+    "location": "[245:262]",
+    "qualifiers": {
+      "region_name": [
+        "Region of interest in the sequence"
+      ],
+      "note": [
+        "Disordered. /evidence=ECO:0000305|PubMed:35108439."
+      ]
+    }
+  },
+  {
+    "type": "Region",
+    "location": "[245:252]",
+    "qualifiers": {
+      "region_name": [
+        "Variant"
+      ],
+      "note": [
+        "Missing (in strain: Lambda/C.37). /evidence=ECO:0000305."
+      ]
+    }
+  },
+  {
+    "type": "Region",
+    "location": "[249:252]",
+    "qualifiers": {
+      "region_name": [
+        "Beta-strand region"
+      ],
+      "note": [
+        "/evidence=ECO:0007829|PDB:8CXQ."
+      ]
+    }
+  },
+  {
+    "type": "Region",
+    "location": "[251:252]",
+    "qualifiers": {
+      "region_name": [
+        "Variant"
+      ],
+      "note": [
+        "G -> V (in strain: Omicron/XBB.1.5, Omicron/EG.5.1). /evidence=ECO:0000305."
+      ]
+    }
+  },
+  {
+    "type": "Region",
+    "location": "[252:253]",
+    "qualifiers": {
+      "region_name": [
+        "Variant"
+      ],
+      "note": [
+        "D -> G (in strain: Iota/B.1.526). /evidence=ECO:0000305."
+      ]
+    }
+  },
+  {
+    "type": "Region",
+    "location": "[252:253]",
+    "qualifiers": {
+      "region_name": [
+        "Variant"
+      ],
+      "note": [
+        "D -> N (in strain: Lambda/C.37). /evidence=ECO:0000305."
+      ]
+    }
+  },
+  {
+    "type": "Region",
+    "location": "[253:256]",
+    "qualifiers": {
+      "region_name": [
+        "Hydrogen bonded turn"
+      ],
+      "note": [
+        "/evidence=ECO:0007829|PDB:7B62."
+      ]
+    }
+  },
+  {
+    "type": "Region",
+    "location": "[256:257]",
+    "qualifiers": {
+      "region_name": [
+        "Variant"
+      ],
+      "note": [
+        "G -> S (in strain: Omicron/BA.2.75). /evidence=ECO:0000305."
+      ]
+    }
+  },
+  {
+    "type": "Region",
+    "location": "[258:261]",
+    "qualifiers": {
+      "region_name": [
+        "Hydrogen bonded turn"
+      ],
+      "note": [
+        "/evidence=ECO:0007829|PDB:8G73."
+      ]
+    }
+  },
+  {
+    "type": "Region",
+    "location": "[262:269]",
+    "qualifiers": {
+      "region_name": [
+        "Beta-strand region"
+      ],
+      "note": [
+        "/evidence=ECO:0007829|PDB:7B62."
+      ]
+    }
+  },
+  {
+    "type": "Region",
+    "location": "[270:279]",
+    "qualifiers": {
+      "region_name": [
+        "Beta-strand region"
+      ],
+      "note": [
+        "/evidence=ECO:0007829|PDB:7B62."
+      ]
+    }
+  },
+  {
+    "type": "Region",
+    "location": "[279:301]",
+    "qualifiers": {
+      "region_name": [
+        "Region of interest in the sequence"
+      ],
+      "note": [
+        "Putative superantigen; may bind T-cell receptor alpha/TRAC. /evidence=ECO:0000303|PubMed:32989130."
+      ]
+    }
+  },
+  {
+    "type": "Region",
+    "location": "[280:283]",
+    "qualifiers": {
+      "region_name": [
+        "Beta-strand region"
+      ],
+      "note": [
+        "/evidence=ECO:0007829|PDB:7TPR."
+      ]
+    }
+  },
+  {
+    "type": "Site",
+    "location": "[281:282]",
+    "qualifiers": {
+      "site_type": [
+        "glycosylation"
+      ],
+      "note": [
+        "N-linked (GlcNAc...) (complex) asparagine; by host. /evidence=ECO:0000255|HAMAP-Rule:MF_04099, ECO:0000269|PubMed:32155444, ECO:0000269|PubMed:32363391, ECO:0000269|PubMed:32366695, ECO:0000269|PubMed:32979942."
+      ]
+    }
+  },
+  {
+    "type": "Region",
+    "location": "[284:290]",
+    "qualifiers": {
+      "region_name": [
+        "Beta-strand region"
+      ],
+      "note": [
+        "/evidence=ECO:0007829|PDB:7B62."
+      ]
+    }
+  },
+  {
+    "type": "Bond",
+    "location": "bond{[290:291], [300:301]}",
+    "qualifiers": {
+      "bond_type": [
+        "disulfide"
+      ],
+      "note": [
+        "/evidence=ECO:0000255|PROSITE-ProRule:PRU01270, ECO:0000269|PubMed:32155444, ECO:0007744|PDB:6VXX."
+      ]
+    }
+  },
+  {
+    "type": "Region",
+    "location": "[290:293]",
+    "qualifiers": {
+      "region_name": [
+        "Hydrogen bonded turn"
+      ],
+      "note": [
+        "/evidence=ECO:0007829|PDB:8A99."
+      ]
+    }
+  },
+  {
+    "type": "Region",
+    "location": "[294:303]",
+    "qualifiers": {
+      "region_name": [
+        "Helical region"
+      ],
+      "note": [
+        "/evidence=ECO:0007829|PDB:7B62."
+      ]
+    }
+  },
+  {
+    "type": "Region",
+    "location": "[304:307]",
+    "qualifiers": {
+      "region_name": [
+        "Beta-strand region"
+      ],
+      "note": [
+        "/evidence=ECO:0007829|PDB:8DLO."
+      ]
+    }
+  },
+  {
+    "type": "Region",
+    "location": "[309:319]",
+    "qualifiers": {
+      "region_name": [
+        "Beta-strand region"
+      ],
+      "note": [
+        "/evidence=ECO:0007829|PDB:8DLW."
+      ]
+    }
+  },
+  {
+    "type": "Region",
+    "location": "[318:541]",
+    "qualifiers": {
+      "region_name": [
+        "Region of interest in the sequence"
+      ],
+      "note": [
+        "Receptor-binding domain (RBD). /evidence=ECO:0000269|PubMed:32132184."
+      ]
+    }
+  },
+  {
+    "type": "Region",
+    "location": "[318:541]",
+    "qualifiers": {
+      "region_name": [
+        "SARS-CoV-2_Spike_S1_RBD"
+      ],
+      "note": [
+        "receptor-binding domain of the S1 subunit of severe acute respiratory syndrome coronavirus 2 Spike (S) protein; cd21480"
+      ],
+      "db_xref": [
+        "CDD:394827"
+      ]
+    }
+  },
+  {
+    "type": "Site",
+    "location": "order{[318:319], [320:321], [356:357], [380:383], [385:386], [389:390], [393:394], [395:396], [412:413], [515:517], [520:521]}",
+    "qualifiers": {
+      "site_type": [
+        "other"
+      ],
+      "note": [
+        "trimer interface [polypeptide binding]"
+      ],
+      "db_xref": [
+        "CDD:394827"
+      ]
+    }
+  },
+  {
+    "type": "Region",
+    "location": "[318:335]",
+    "qualifiers": {
+      "region_name": [
+        "Region of interest in the sequence"
+      ],
+      "note": [
+        "Disordered. /evidence=ECO:0000305|PubMed:35108439."
+      ]
+    }
+  },
+  {
+    "type": "Site",
+    "location": "[322:323]",
+    "qualifiers": {
+      "site_type": [
+        "glycosylation"
+      ],
+      "note": [
+        "O-linked (GalNAc) threonine; by host. /evidence=ECO:0000269|PubMed:32363391."
+      ]
+    }
+  },
+  {
+    "type": "Region",
+    "location": "[323:328]",
+    "qualifiers": {
+      "region_name": [
+        "Beta-strand region"
+      ],
+      "note": [
+        "/evidence=ECO:0007829|PDB:8DLW."
+      ]
+    }
+  },
+  {
+    "type": "Site",
+    "location": "[324:325]",
+    "qualifiers": {
+      "site_type": [
+        "glycosylation"
+      ],
+      "note": [
+        "O-linked (HexNAc...) serine; by host. /evidence=ECO:0000269|PubMed:32363391."
+      ]
+    }
+  },
+  {
+    "type": "Site",
+    "location": "[330:331]",
+    "qualifiers": {
+      "site_type": [
+        "mutagenized"
+      ],
+      "note": [
+        "N->Q: Reduced viral infectivity. /evidence=ECO:0000269|PubMed:32730807."
+      ]
+    }
+  },
+  {
+    "type": "Site",
+    "location": "[330:331]",
+    "qualifiers": {
+      "site_type": [
+        "glycosylation"
+      ],
+      "note": [
+        "N-linked (GlcNAc...) (complex) asparagine; by host. /evidence=ECO:0000255|HAMAP-Rule:MF_04099, ECO:0000269|PubMed:32155444, ECO:0000269|PubMed:32363391, ECO:0000269|PubMed:32366695, ECO:0000269|PubMed:32979942."
+      ]
+    }
+  },
+  {
+    "type": "Region",
+    "location": "[331:334]",
+    "qualifiers": {
+      "region_name": [
+        "Helical region"
+      ],
+      "note": [
+        "/evidence=ECO:0007829|PDB:7D2Z."
+      ]
+    }
+  },
+  {
+    "type": "Region",
+    "location": "[333:527]",
+    "qualifiers": {
+      "region_name": [
+        "Domain"
+      ],
+      "note": [
+        "BetaCoV S1-CTD. /evidence=ECO:0000255|PROSITE-ProRule:PRU01269, ECO:0000269|PubMed:32132184."
+      ]
+    }
+  },
+  {
+    "type": "Bond",
+    "location": "bond{[335:336], [360:361]}",
+    "qualifiers": {
+      "bond_type": [
+        "disulfide"
+      ],
+      "note": [
+        "/evidence=ECO:0000255|PROSITE-ProRule:PRU01269, ECO:0000269|PubMed:32155444, ECO:0000269|PubMed:32245784."
+      ]
+    }
+  },
+  {
+    "type": "Region",
+    "location": "[337:342]",
+    "qualifiers": {
+      "region_name": [
+        "Helical region"
+      ],
+      "note": [
+        "/evidence=ECO:0007829|PDB:7Z8O."
+      ]
+    }
+  },
+  {
+    "type": "Region",
+    "location": "[338:339]",
+    "qualifiers": {
+      "region_name": [
+        "Variant"
+      ],
+      "note": [
+        "G -> D (in strain: Omicron/BA.1, Omicron/BA.2, Omicron/BA.2.12.1, Omicron/BA.4, Omicron/BA.5, Omicron/ BQ.1.1). /evidence=ECO:0000305."
+      ]
+    }
+  },
+  {
+    "type": "Region",
+    "location": "[338:339]",
+    "qualifiers": {
+      "region_name": [
+        "Variant"
+      ],
+      "note": [
+        "G -> H (in strain: Omicron/BA.2.75, Omicron/XBB.1.5, Omicron/EG.5.1). /evidence=ECO:0000305."
+      ]
+    }
+  },
+  {
+    "type": "Site",
+    "location": "[342:343]",
+    "qualifiers": {
+      "site_type": [
+        "mutagenized"
+      ],
+      "note": [
+        "N->Q: Reduced viral infectivity. /evidence=ECO:0000269|PubMed:32730807."
+      ]
+    }
+  },
+  {
+    "type": "Site",
+    "location": "[342:343]",
+    "qualifiers": {
+      "site_type": [
+        "glycosylation"
+      ],
+      "note": [
+        "N-linked (GlcNAc...) (complex) asparagine; by host. /evidence=ECO:0000255|HAMAP-Rule:MF_04099, ECO:0000269|PubMed:32155444, ECO:0000269|PubMed:32363391, ECO:0000269|PubMed:32366695, ECO:0000269|PubMed:32979942."
+      ]
+    }
+  },
+  {
+    "type": "Region",
+    "location": "[343:346]",
+    "qualifiers": {
+      "region_name": [
+        "Beta-strand region"
+      ],
+      "note": [
+        "/evidence=ECO:0007829|PDB:7R6W."
+      ]
+    }
+  },
+  {
+    "type": "Region",
+    "location": "[345:346]",
+    "qualifiers": {
+      "region_name": [
+        "Variant"
+      ],
+      "note": [
+        "R -> K (in strain: Mu/B.1.621). /evidence=ECO:0000305."
+      ]
+    }
+  },
+  {
+    "type": "Region",
+    "location": "[345:346]",
+    "qualifiers": {
+      "region_name": [
+        "Variant"
+      ],
+      "note": [
+        "R -> T (in strain: Omicron/BQ.1.1, Omicron/XBB.1.5, Omicron/EG.5.1)."
+      ]
+    }
+  },
+  {
+    "type": "Region",
+    "location": "[349:352]",
+    "qualifiers": {
+      "region_name": [
+        "Helical region"
+      ],
+      "note": [
+        "/evidence=ECO:0007829|PDB:7Z8O."
+      ]
+    }
+  },
+  {
+    "type": "Region",
+    "location": "[353:358]",
+    "qualifiers": {
+      "region_name": [
+        "Beta-strand region"
+      ],
+      "note": [
+        "/evidence=ECO:0007829|PDB:7Z8O."
+      ]
+    }
+  },
+  {
+    "type": "Region",
+    "location": "[359:362]",
+    "qualifiers": {
+      "region_name": [
+        "Beta-strand region"
+      ],
+      "note": [
+        "/evidence=ECO:0007829|PDB:7Z8O."
+      ]
+    }
+  },
+  {
+    "type": "Region",
+    "location": "[364:369]",
+    "qualifiers": {
+      "region_name": [
+        "Helical region"
+      ],
+      "note": [
+        "/evidence=ECO:0007829|PDB:7Z8O."
+      ]
+    }
+  },
+  {
+    "type": "Region",
+    "location": "[367:368]",
+    "qualifiers": {
+      "region_name": [
+        "Variant"
+      ],
+      "note": [
+        "L -> I (in strain: Omicron/XBB.1.5, Omicron/EG.5.1). /evidence=ECO:0000305."
+      ]
+    }
+  },
+  {
+    "type": "Site",
+    "location": "order{[368:370], [371:372], [373:374], [375:378], [379:380], [381:382], [383:386], [388:390], [391:392], [427:430], [514:515], [516:517], [518:519]}",
+    "qualifiers": {
+      "site_type": [
+        "other"
+      ],
+      "note": [
+        "cryptic epitope [polypeptide binding]"
+      ],
+      "db_xref": [
+        "CDD:394827"
+      ]
+    }
+  },
+  {
+    "type": "Region",
+    "location": "[370:373]",
+    "qualifiers": {
+      "region_name": [
+        "Helical region"
+      ],
+      "note": [
+        "/evidence=ECO:0007829|PDB:7OLZ."
+      ]
+    }
+  },
+  {
+    "type": "Region",
+    "location": "[370:371]",
+    "qualifiers": {
+      "region_name": [
+        "Variant"
+      ],
+      "note": [
+        "S -> F (in strain: Omicron/BA.2, Omicron/BA.2.12.1, Omicron/BA.2.75, Omicron/BA.4, Omicron/BA.5, Omicron/ BQ.1.1, Omicron/XBB.1.5, Omicron/EG.5.1). /evidence=ECO:0000305."
+      ]
+    }
+  },
+  {
+    "type": "Region",
+    "location": "[370:371]",
+    "qualifiers": {
+      "region_name": [
+        "Variant"
+      ],
+      "note": [
+        "S -> L (in strain: Omicron/BA.1). /evidence=ECO:0000305."
+      ]
+    }
+  },
+  {
+    "type": "Region",
+    "location": "[372:373]",
+    "qualifiers": {
+      "region_name": [
+        "Variant"
+      ],
+      "note": [
+        "S -> P (in strain: Omicron/BA.1, Omicron/BA.2, Omicron/BA.2.12.1, Omicron/BA.2.75, Omicron/BA.4, Omicron/ BA.5, Omicron/BQ.1.1, Omicron/XBB.1.5, Omicron/EG.5.1). /evidence=ECO:0000305."
+      ]
+    }
+  },
+  {
+    "type": "Region",
+    "location": "[374:382]",
+    "qualifiers": {
+      "region_name": [
+        "Beta-strand region"
+      ],
+      "note": [
+        "/evidence=ECO:0007829|PDB:7Z8O."
+      ]
+    }
+  },
+  {
+    "type": "Region",
+    "location": "[374:375]",
+    "qualifiers": {
+      "region_name": [
+        "Variant"
+      ],
+      "note": [
+        "S -> F (in strain: Omicron/BA.1, Omicron/BA.2, Omicron/BA.2.12.1, Omicron/BA.2.75, Omicron/BA.4, Omicron/ BA.5, Omicron/BQ.1.1, Omicron/XBB.1.5, Omicron/EG.5.1). /evidence=ECO:0000305."
+      ]
+    }
+  },
+  {
+    "type": "Region",
+    "location": "[375:376]",
+    "qualifiers": {
+      "region_name": [
+        "Variant"
+      ],
+      "note": [
+        "T -> A (in strain: Omicron/BA.2, Omicron/BA.2.12.1, Omicron/BA.4, Omicron/BA.5, Omicron/BQ.1.1, Omicron/ XBB.1.5, Omicron/EG.5.1). /evidence=ECO:0000305."
+      ]
+    }
+  },
+  {
+    "type": "Bond",
+    "location": "bond{[378:379], [431:432]}",
+    "qualifiers": {
+      "bond_type": [
+        "disulfide"
+      ],
+      "note": [
+        "/evidence=ECO:0000255|PROSITE-ProRule:PRU01269, ECO:0000269|PubMed:32155444, ECO:0000269|PubMed:32245784."
+      ]
+    }
+  },
+  {
+    "type": "Region",
+    "location": "[383:389]",
+    "qualifiers": {
+      "region_name": [
+        "Helical region"
+      ],
+      "note": [
+        "/evidence=ECO:0007829|PDB:7Z8O."
+      ]
+    }
+  },
+  {
+    "type": "Bond",
+    "location": "bond{[390:391], [524:525]}",
+    "qualifiers": {
+      "bond_type": [
+        "disulfide"
+      ],
+      "note": [
+        "/evidence=ECO:0000255|PROSITE-ProRule:PRU01269, ECO:0000269|PubMed:32155444, ECO:0000269|PubMed:32225175, ECO:0000269|PubMed:32225176, ECO:0000269|PubMed:32245784, ECO:0007744|PDB:6VXX."
+      ]
+    }
+  },
+  {
+    "type": "Region",
+    "location": "[390:403]",
+    "qualifiers": {
+      "region_name": [
+        "Beta-strand region"
+      ],
+      "note": [
+        "/evidence=ECO:0007829|PDB:7Z8O."
+      ]
+    }
+  },
+  {
+    "type": "Region",
+    "location": "[402:405]",
+    "qualifiers": {
+      "region_name": [
+        "Region of interest in the sequence"
+      ],
+      "note": [
+        "Integrin-binding motif;. /evidence=ECO:0000269|PubMed:33102950."
+      ]
+    }
+  },
+  {
+    "type": "Region",
+    "location": "[403:409]",
+    "qualifiers": {
+      "region_name": [
+        "Helical region"
+      ],
+      "note": [
+        "/evidence=ECO:0007829|PDB:7Z8O."
+      ]
+    }
+  },
+  {
+    "type": "Region",
+    "location": "[404:405]",
+    "qualifiers": {
+      "region_name": [
+        "Variant"
+      ],
+      "note": [
+        "D -> N (in strain: Omicron/BA.2, Omicron/BA.2.12.1, Omicron/BA.2.75, Omicron/BA.4, Omicron/BA.5, Omicron/ BQ.1.1, Omicron/XBB.1.5, Omicron/EG.5.1; complete loss of interaction with host integrins). /evidence=ECO:0000269|PubMed:36851546, ECO:0000305."
+      ]
+    }
+  },
+  {
+    "type": "Region",
+    "location": "[407:408]",
+    "qualifiers": {
+      "region_name": [
+        "Variant"
+      ],
+      "note": [
+        "R -> S (in strain: Omicron/BA.2, Omicron/BA.2.12.1, Omicron/BA.2.75, Omicron/BA.4, Omicron/BA.5, Omicron/ BQ.1.1, Omicron/XBB.1.5, Omicron/EG.5.1). /evidence=ECO:0000305."
+      ]
+    }
+  },
+  {
+    "type": "Region",
+    "location": "[409:412]",
+    "qualifiers": {
+      "region_name": [
+        "Beta-strand region"
+      ],
+      "note": [
+        "/evidence=ECO:0007829|PDB:7TPI."
+      ]
+    }
+  },
+  {
+    "type": "Region",
+    "location": "[413:416]",
+    "qualifiers": {
+      "region_name": [
+        "Beta-strand region"
+      ],
+      "note": [
+        "/evidence=ECO:0007829|PDB:7YCN."
+      ]
+    }
+  },
+  {
+    "type": "Site",
+    "location": "order{[416:417], [445:446], [448:449], [452:453], [454:456], [474:475], [485:487], [488:489], [492:493], [495:496], [497:498], [499:502], [504:505]}",
+    "qualifiers": {
+      "site_type": [
+        "other"
+      ],
+      "note": [
+        "receptor binding site [polypeptide binding]"
+      ],
+      "db_xref": [
+        "CDD:394827"
+      ]
+    }
+  },
+  {
+    "type": "Region",
+    "location": "[416:421]",
+    "qualifiers": {
+      "region_name": [
+        "Helical region"
+      ],
+      "note": [
+        "/evidence=ECO:0007829|PDB:7Z8O."
+      ]
+    }
+  },
+  {
+    "type": "Region",
+    "location": "[416:417]",
+    "qualifiers": {
+      "region_name": [
+        "Variant"
+      ],
+      "note": [
+        "K -> N (in strain: Beta/B.1.351, Omicron/BA.1, Omicron/BA.2, Omicron/BA.2.12.1, Omicron/BA.2.75, Omicron/ BA.4, Omicron/BA.5, Omicron/BQ.1.1, Omicron/XBB.1.5, Omicron/EG.5.1; May enhance affinity to human ACE2 receptor). /evidence=ECO:0000305, ECO:0000305|PubMed:33690265."
+      ]
+    }
+  },
+  {
+    "type": "Region",
+    "location": "[416:417]",
+    "qualifiers": {
+      "region_name": [
+        "Variant"
+      ],
+      "note": [
+        "K -> T (in strain: Gamma/P.1). /evidence=ECO:0000305."
+      ]
+    }
+  },
+  {
+    "type": "Region",
+    "location": "[426:429]",
+    "qualifiers": {
+      "region_name": [
+        "Beta-strand region"
+      ],
+      "note": [
+        "/evidence=ECO:0007829|PDB:7K9H."
+      ]
+    }
+  },
+  {
+    "type": "Region",
+    "location": "[430:437]",
+    "qualifiers": {
+      "region_name": [
+        "Beta-strand region"
+      ],
+      "note": [
+        "/evidence=ECO:0007829|PDB:7Z8O."
+      ]
+    }
+  },
+  {
+    "type": "Region",
+    "location": "[436:508]",
+    "qualifiers": {
+      "region_name": [
+        "Region of interest in the sequence"
+      ],
+      "note": [
+        "Receptor-binding motif; binding to human ACE2. /evidence=ECO:0000250|UniProtKB:P59594."
+      ]
+    }
+  },
+  {
+    "type": "Site",
+    "location": "[437:508]",
+    "qualifiers": {
+      "site_type": [
+        "other"
+      ],
+      "note": [
+        "receptor binding motif"
+      ],
+      "db_xref": [
+        "CDD:394827"
+      ]
+    }
+  },
+  {
+    "type": "Region",
+    "location": "[438:442]",
+    "qualifiers": {
+      "region_name": [
+        "Helical region"
+      ],
+      "note": [
+        "/evidence=ECO:0007829|PDB:7Z8O."
+      ]
+    }
+  },
+  {
+    "type": "Region",
+    "location": "[439:440]",
+    "qualifiers": {
+      "region_name": [
+        "Variant"
+      ],
+      "note": [
+        "N -> K (in strain: Omicron/BA.1, Omicron/BA.2, Omicron/BA.2.12.1, Omicron/BA.2.75, Omicron/BA.4, Omicron/ BA.5, Omicron/BQ.1.1, Omicron/XBB.1.5, Omicron/EG.5.1). /evidence=ECO:0000305."
+      ]
+    }
+  },
+  {
+    "type": "Region",
+    "location": "[443:444]",
+    "qualifiers": {
+      "region_name": [
+        "Variant"
+      ],
+      "note": [
+        "K -> T (in strain: Omicron/BQ.1.1). /evidence=ECO:0000305."
+      ]
+    }
+  },
+  {
+    "type": "Region",
+    "location": "[444:447]",
+    "qualifiers": {
+      "region_name": [
+        "Beta-strand region"
+      ],
+      "note": [
+        "/evidence=ECO:0007829|PDB:8X0Y."
+      ]
+    }
+  },
+  {
+    "type": "Region",
+    "location": "[444:445]",
+    "qualifiers": {
+      "region_name": [
+        "Variant"
+      ],
+      "note": [
+        "V -> P (in strain: Omicron/XBB.1.5, Omicron/EG.5.1). /evidence=ECO:0000305."
+      ]
+    }
+  },
+  {
+    "type": "Region",
+    "location": "[445:446]",
+    "qualifiers": {
+      "region_name": [
+        "Variant"
+      ],
+      "note": [
+        "G -> S (in strain: Omicron/BA.1, Omicron/BA.2.75, Omicron/XBB.1.5, Omicron/EG.5.1). /evidence=ECO:0000305."
+      ]
+    }
+  },
+  {
+    "type": "Region",
+    "location": "[447:456]",
+    "qualifiers": {
+      "region_name": [
+        "Region of interest in the sequence"
+      ],
+      "note": [
+        "Immunodominant HLA epitope recognized by the CD8+; called NF9 peptide. /evidence=ECO:0000269|PubMed:34171266."
+      ]
+    }
+  },
+  {
+    "type": "Region",
+    "location": "[447:450]",
+    "qualifiers": {
+      "region_name": [
+        "Beta-strand region"
+      ],
+      "note": [
+        "/evidence=ECO:0007829|PDB:7MZK."
+      ]
+    }
+  },
+  {
+    "type": "Region",
+    "location": "[451:454]",
+    "qualifiers": {
+      "region_name": [
+        "Beta-strand region"
+      ],
+      "note": [
+        "/evidence=ECO:0007829|PDB:7Z8O."
+      ]
+    }
+  },
+  {
+    "type": "Region",
+    "location": "[451:452]",
+    "qualifiers": {
+      "region_name": [
+        "Variant"
+      ],
+      "note": [
+        "L -> Q (in strain: Omicron/BA.2.12.1). /evidence=ECO:0000305."
+      ]
+    }
+  },
+  {
+    "type": "Region",
+    "location": "[451:452]",
+    "qualifiers": {
+      "region_name": [
+        "Variant"
+      ],
+      "note": [
+        "L -> R (in strain: Delta/B.1.617.2, Epsilon/B.1.427/ B.1.429, Kappa/B.1.617.1, Lambda/C.37, 19B/501Y, Omicron/ BA.4, Omicron/BA.5, Omicron/BQ.1.1; Contributes to cellular immunity evasion and increases infectivity). /evidence=ECO:0000269|PubMed:34171266, ECO:0000305."
+      ]
+    }
+  },
+  {
+    "type": "Site",
+    "location": "[451:452]",
+    "qualifiers": {
+      "site_type": [
+        "mutagenized"
+      ],
+      "note": [
+        "L->R: Increased resistance to neutralizing antibodies. Decreases HLA binding to NF9 epitope. Increased binding affinity to human ACE2. /evidence=ECO:0000269|PubMed:32730807, ECO:0000269|PubMed:34171266."
+      ]
+    }
+  },
+  {
+    "type": "Region",
+    "location": "[452:453]",
+    "qualifiers": {
+      "region_name": [
+        "Variant"
+      ],
+      "note": [
+        "Y -> F (in strain: B.1.1.298). /evidence=ECO:0000269|PubMed:34171266."
+      ]
+    }
+  },
+  {
+    "type": "Site",
+    "location": "[452:453]",
+    "qualifiers": {
+      "site_type": [
+        "mutagenized"
+      ],
+      "note": [
+        "Y->F: Decreased HLA binding to NF9 epitope. Increased binding affinity to human ACE2. /evidence=ECO:0000269|PubMed:34171266."
+      ]
+    }
+  },
+  {
+    "type": "Region",
+    "location": "[454:490]",
+    "qualifiers": {
+      "region_name": [
+        "Region of interest in the sequence"
+      ],
+      "note": [
+        "Disordered. /evidence=ECO:0000305|PubMed:35108439."
+      ]
+    }
+  },
+  {
+    "type": "Region",
+    "location": "[455:456]",
+    "qualifiers": {
+      "region_name": [
+        "Variant"
+      ],
+      "note": [
+        "F -> L (in strain: Omicron/EG.5.1). /evidence=ECO:0000305."
+      ]
+    }
+  },
+  {
+    "type": "Region",
+    "location": "[457:460]",
+    "qualifiers": {
+      "region_name": [
+        "Beta-strand region"
+      ],
+      "note": [
+        "/evidence=ECO:0007829|PDB:8CY7."
+      ]
+    }
+  },
+  {
+    "type": "Region",
+    "location": "[459:460]",
+    "qualifiers": {
+      "region_name": [
+        "Variant"
+      ],
+      "note": [
+        "N -> K (in strain: Omicron/BA.2.75, Omicron/BQ.1.1, Omicron/XBB.1.5, Omicron/EG.5.1). /evidence=ECO:0000305."
+      ]
+    }
+  },
+  {
+    "type": "Region",
+    "location": "[464:467]",
+    "qualifiers": {
+      "region_name": [
+        "Beta-strand region"
+      ],
+      "note": [
+        "/evidence=ECO:0007829|PDB:8FHY."
+      ]
+    }
+  },
+  {
+    "type": "Region",
+    "location": "[469:472]",
+    "qualifiers": {
+      "region_name": [
+        "Beta-strand region"
+      ],
+      "note": [
+        "/evidence=ECO:0007829|PDB:7LD1."
+      ]
+    }
+  },
+  {
+    "type": "Site",
+    "location": "[474:475]",
+    "qualifiers": {
+      "site_type": [
+        "mutagenized"
+      ],
+      "note": [
+        "A->V: Increased resistance to neutralizing antibodies. /evidence=ECO:0000269|PubMed:32730807."
+      ]
+    }
+  },
+  {
+    "type": "Region",
+    "location": "[475:478]",
+    "qualifiers": {
+      "region_name": [
+        "Beta-strand region"
+      ],
+      "note": [
+        "/evidence=ECO:0007829|PDB:7Z8O."
+      ]
+    }
+  },
+  {
+    "type": "Region",
+    "location": "[476:477]",
+    "qualifiers": {
+      "region_name": [
+        "Variant"
+      ],
+      "note": [
+        "S -> N (in strain: 20A.EU2, Iota/B.1.526, Omicron/ BA.1, Omicron/BA.2, Omicron/BA.2.12.1, Omicron/BA.2.75, Omicron/BA.4, Omicron/BA.5, Omicron/BQ.1.1, Omicron/ XBB.1.5, Omicron/EG.5.1). /evidence=ECO:0000305."
+      ]
+    }
+  },
+  {
+    "type": "Region",
+    "location": "[477:478]",
+    "qualifiers": {
+      "region_name": [
+        "Variant"
+      ],
+      "note": [
+        "T -> K (in strain: Delta/B.1.617.2, Omicron/BA.1, Omicron/BA.2, Omicron/BA.2.12.1, Omicron/BA.2.75, Omicron/ BA.4, Omicron/BA.5, Omicron/BQ.1.1, Omicron/XBB.1.5, Omicron/EG.5.1). /evidence=ECO:0000305."
+      ]
+    }
+  },
+  {
+    "type": "Bond",
+    "location": "bond{[479:480], [487:488]}",
+    "qualifiers": {
+      "bond_type": [
+        "disulfide"
+      ],
+      "note": [
+        "/evidence=ECO:0000269|PubMed:32245784."
+      ]
+    }
+  },
+  {
+    "type": "Region",
+    "location": "[480:483]",
+    "qualifiers": {
+      "region_name": [
+        "Beta-strand region"
+      ],
+      "note": [
+        "/evidence=ECO:0007829|PDB:7MSQ."
+      ]
+    }
+  },
+  {
+    "type": "Site",
+    "location": "[482:483]",
+    "qualifiers": {
+      "site_type": [
+        "mutagenized"
+      ],
+      "note": [
+        "V->A: Increased resistance to neutralizing antibodies. /evidence=ECO:0000269|PubMed:32730807."
+      ]
+    }
+  },
+  {
+    "type": "Region",
+    "location": "[483:484]",
+    "qualifiers": {
+      "region_name": [
+        "Variant"
+      ],
+      "note": [
+        "E -> A (in strain: Omicron/BA.1, Omicron/BA.2, Omicron/BA.2.12.1, Omicron/BA.2.75, Omicron/BA.4, Omicron/ BA.5, Omicron/BQ.1.1, Omicron/XBB.1.5, Omicron/EG.5.1). /evidence=ECO:0000305."
+      ]
+    }
+  },
+  {
+    "type": "Region",
+    "location": "[483:484]",
+    "qualifiers": {
+      "region_name": [
+        "Variant"
+      ],
+      "note": [
+        "E -> K (in strain: Beta/B.1.351, Eta/B.1.525, Theta/ P.3, Iota/B.1.526, B.1.1.318, Gamma/P.1, Zeta/P.2 and Mu/ B.1.621; May enhance affinity to human ACE2 receptor). /evidence=ECO:0000305, ECO:0000305|PubMed:33690265."
+      ]
+    }
+  },
+  {
+    "type": "Region",
+    "location": "[483:484]",
+    "qualifiers": {
+      "region_name": [
+        "Variant"
+      ],
+      "note": [
+        "E -> Q (in strain: Kappa/B.1.617.1). /evidence=ECO:0000305."
+      ]
+    }
+  },
+  {
+    "type": "Site",
+    "location": "[483:484]",
+    "qualifiers": {
+      "site_type": [
+        "mutagenized"
+      ],
+      "note": [
+        "E->D: Increased replication in human TMEM106B overexpressing cells. /evidence=ECO:0000269|PubMed:37421949."
+      ]
+    }
+  },
+  {
+    "type": "Region",
+    "location": "[484:489]",
+    "qualifiers": {
+      "region_name": [
+        "Beta-strand region"
+      ],
+      "note": [
+        "/evidence=ECO:0007829|PDB:8XSI."
+      ]
+    }
+  },
+  {
+    "type": "Region",
+    "location": "[485:486]",
+    "qualifiers": {
+      "region_name": [
+        "Variant"
+      ],
+      "note": [
+        "F -> P (in strain: Omicron/XBB.1.5, Omicron/EG.5.1). /evidence=ECO:0000305."
+      ]
+    }
+  },
+  {
+    "type": "Region",
+    "location": "[485:486]",
+    "qualifiers": {
+      "region_name": [
+        "Variant"
+      ],
+      "note": [
+        "F -> V (in strain: Omicron/BA.4, Omicron/BA.5, Omicron/BQ.1.1). /evidence=ECO:0000305."
+      ]
+    }
+  },
+  {
+    "type": "Region",
+    "location": "[489:490]",
+    "qualifiers": {
+      "region_name": [
+        "Variant"
+      ],
+      "note": [
+        "F -> S (in strain: Lambda/C.37, Omicron/BQ.1.1, Omicron/XBB.1.5, Omicron/EG.5.1). /evidence=ECO:0000305."
+      ]
+    }
+  },
+  {
+    "type": "Site",
+    "location": "[489:490]",
+    "qualifiers": {
+      "site_type": [
+        "mutagenized"
+      ],
+      "note": [
+        "F->L: Increased resistance to neutralizing antibodies and human covalescent sera neutralization. /evidence=ECO:0000269|PubMed:32730807."
+      ]
+    }
+  },
+  {
+    "type": "Region",
+    "location": "[490:494]",
+    "qualifiers": {
+      "region_name": [
+        "Beta-strand region"
+      ],
+      "note": [
+        "/evidence=ECO:0007829|PDB:7Z8O."
+      ]
+    }
+  },
+  {
+    "type": "Region",
+    "location": "[492:493]",
+    "qualifiers": {
+      "region_name": [
+        "Variant"
+      ],
+      "note": [
+        "Q -> R (in strain: Omicron/BA.1, Omicron/BA.2, Omicron/BA.2.12.1). /evidence=ECO:0000305."
+      ]
+    }
+  },
+  {
+    "type": "Site",
+    "location": "[492:493]",
+    "qualifiers": {
+      "site_type": [
+        "mutagenized"
+      ],
+      "note": [
+        "Q->N: Reduced host ACE2-binding affinity in vitro. /evidence=ECO:0000269|PubMed:32225175."
+      ]
+    }
+  },
+  {
+    "type": "Site",
+    "location": "[492:493]",
+    "qualifiers": {
+      "site_type": [
+        "mutagenized"
+      ],
+      "note": [
+        "Q->Y: Reduced host ACE2-binding affinity in vitro. /evidence=ECO:0000269|PubMed:32225175."
+      ]
+    }
+  },
+  {
+    "type": "Region",
+    "location": "[494:497]",
+    "qualifiers": {
+      "region_name": [
+        "Helical region"
+      ],
+      "note": [
+        "/evidence=ECO:0007829|PDB:7P5Q."
+      ]
+    }
+  },
+  {
+    "type": "Region",
+    "location": "[495:496]",
+    "qualifiers": {
+      "region_name": [
+        "Variant"
+      ],
+      "note": [
+        "G -> S (in strain: Omicron/BA.1). /evidence=ECO:0000305."
+      ]
+    }
+  },
+  {
+    "type": "Region",
+    "location": "[497:498]",
+    "qualifiers": {
+      "region_name": [
+        "Variant"
+      ],
+      "note": [
+        "Q -> R (in strain: Omicron/BA.1, Omicron/BA.2, Omicron/BA.2.12.1, Omicron/BA.2.75, Omicron/BA.4, Omicron/ BA.5, Omicron/BQ.1.1, Omicron/XBB.1.5, Omicron/EG.5.1). /evidence=ECO:0000305."
+      ]
+    }
+  },
+  {
+    "type": "Region",
+    "location": "[498:501]",
+    "qualifiers": {
+      "region_name": [
+        "Beta-strand region"
+      ],
+      "note": [
+        "/evidence=ECO:0007829|PDB:8A94."
+      ]
+    }
+  },
+  {
+    "type": "Region",
+    "location": "[500:501]",
+    "qualifiers": {
+      "region_name": [
+        "Variant"
+      ],
+      "note": [
+        "N -> T (in strain: 19B/501T). /evidence=ECO:0000305."
+      ]
+    }
+  },
+  {
+    "type": "Region",
+    "location": "[500:501]",
+    "qualifiers": {
+      "region_name": [
+        "Variant"
+      ],
+      "note": [
+        "N -> Y (in strain: Alpha/B.1.1.7, Beta/B.1.351, Gamma/P.1, Theta/P.3, Mu/B.1.621, 19B/501Y, Omicron/BA.1, Omicron/BA.2, Omicron/BA.2.12.1, Omicron/BA.2.75, Omicron/ BA.4, Omicron/BA.5, Omicron/BQ.1.1, Omicron/XBB.1.5, Omicron/EG.5.1; May enhance affinity to human ACE2 receptor). /evidence=ECO:0000269|PubMed:32732280, ECO:0000305, ECO:0000305|PubMed:33413740, ECO:0000305|PubMed:33690265."
+      ]
+    }
+  },
+  {
+    "type": "Site",
+    "location": "[500:501]",
+    "qualifiers": {
+      "site_type": [
+        "mutagenized"
+      ],
+      "note": [
+        "N->T: Reduced host ACE2-binding affinity in vitro. /evidence=ECO:0000269|PubMed:32225175."
+      ]
+    }
+  },
+  {
+    "type": "Site",
+    "location": "[500:501]",
+    "qualifiers": {
+      "site_type": [
+        "mutagenized"
+      ],
+      "note": [
+        "N->Y: Increased binding affinity to human ACE2. /evidence=ECO:0000269|PubMed:34171266."
+      ]
+    }
+  },
+  {
+    "type": "Region",
+    "location": "[502:505]",
+    "qualifiers": {
+      "region_name": [
+        "Helical region"
+      ],
+      "note": [
+        "/evidence=ECO:0007829|PDB:7Z8O."
+      ]
+    }
+  },
+  {
+    "type": "Region",
+    "location": "[504:505]",
+    "qualifiers": {
+      "region_name": [
+        "Variant"
+      ],
+      "note": [
+        "Y -> H (in strain: Omicron/BA.1, Omicron/BA.2, Omicron/BA.2.12.1, Omicron/BA.2.75, Omicron/BA.4, Omicron/ BA.5, Omicron/BQ.1.1, Omicron/XBB.1.5, Omicron/EG.5.1). /evidence=ECO:0000305."
+      ]
+    }
+  },
+  {
+    "type": "Region",
+    "location": "[505:516]",
+    "qualifiers": {
+      "region_name": [
+        "Beta-strand region"
+      ],
+      "note": [
+        "/evidence=ECO:0007829|PDB:7Z8O."
+      ]
+    }
+  },
+  {
+    "type": "Region",
+    "location": "[517:520]",
+    "qualifiers": {
+      "region_name": [
+        "Beta-strand region"
+      ],
+      "note": [
+        "/evidence=ECO:0007829|PDB:8R1C."
+      ]
+    }
+  },
+  {
+    "type": "Region",
+    "location": "[518:541]",
+    "qualifiers": {
+      "region_name": [
+        "Region of interest in the sequence"
+      ],
+      "note": [
+        "Disordered. /evidence=ECO:0000305|PubMed:35108439."
+      ]
+    }
+  },
+  {
+    "type": "Site",
+    "location": "[518:519]",
+    "qualifiers": {
+      "site_type": [
+        "mutagenized"
+      ],
+      "note": [
+        "H->P: Increased resistance to human covalescent sera neutralization. /evidence=ECO:0000269|PubMed:32730807."
+      ]
+    }
+  },
+  {
+    "type": "Region",
+    "location": "[522:525]",
+    "qualifiers": {
+      "region_name": [
+        "Beta-strand region"
+      ],
+      "note": [
+        "/evidence=ECO:0007829|PDB:8CWU."
+      ]
+    }
+  },
+  {
+    "type": "Region",
+    "location": "[526:529]",
+    "qualifiers": {
+      "region_name": [
+        "Helical region"
+      ],
+      "note": [
+        "/evidence=ECO:0007829|PDB:7WNB."
+      ]
+    }
+  },
+  {
+    "type": "Region",
+    "location": "[535:543]",
+    "qualifiers": {
+      "region_name": [
+        "Beta-strand region"
+      ],
+      "note": [
+        "/evidence=ECO:0007829|PDB:8DLW."
+      ]
+    }
+  },
+  {
+    "type": "Bond",
+    "location": "bond{[537:538], [589:590]}",
+    "qualifiers": {
+      "bond_type": [
+        "disulfide"
+      ],
+      "note": [
+        "/evidence=ECO:0000269|PubMed:32155444, ECO:0007744|PDB:6VXX."
+      ]
+    }
+  },
+  {
+    "type": "Region",
+    "location": "[542:1208]",
+    "qualifiers": {
+      "region_name": [
+        "SARS-CoV-like_Spike_SD1-2_S1-S2_S2"
+      ],
+      "note": [
+        "SD-1 and SD-2 subdomains, the S1/S2 cleavage region, and the S2 fusion subunit of the spike (S) glycoprotein from SARS-CoV-2 (COVID-19) and related betacoronaviruses in the B lineage; cd22378"
+      ],
+      "db_xref": [
+        "CDD:411965"
+      ]
+    }
+  },
+  {
+    "type": "Region",
+    "location": "[545:554]",
+    "qualifiers": {
+      "region_name": [
+        "Beta-strand region"
+      ],
+      "note": [
+        "/evidence=ECO:0007829|PDB:8DLW."
+      ]
+    }
+  },
+  {
+    "type": "Region",
+    "location": "[546:547]",
+    "qualifiers": {
+      "region_name": [
+        "Variant"
+      ],
+      "note": [
+        "T -> K (in strain: Omicron/BA.1). /evidence=ECO:0000305."
+      ]
+    }
+  },
+  {
+    "type": "Region",
+    "location": "[560:563]",
+    "qualifiers": {
+      "region_name": [
+        "Beta-strand region"
+      ],
+      "note": [
+        "/evidence=ECO:0007829|PDB:7T5O."
+      ]
+    }
+  },
+  {
+    "type": "Region",
+    "location": "[564:567]",
+    "qualifiers": {
+      "region_name": [
+        "Beta-strand region"
+      ],
+      "note": [
+        "/evidence=ECO:0007829|PDB:8DLW."
+      ]
+    }
+  },
+  {
+    "type": "Region",
+    "location": "[569:570]",
+    "qualifiers": {
+      "region_name": [
+        "Variant"
+      ],
+      "note": [
+        "A -> D (in strain: Alpha/B.1.1.7). /evidence=ECO:0000305|PubMed:33413740."
+      ]
+    }
+  },
+  {
+    "type": "Region",
+    "location": "[570:577]",
+    "qualifiers": {
+      "region_name": [
+        "Beta-strand region"
+      ],
+      "note": [
+        "/evidence=ECO:0007829|PDB:8DLW."
+      ]
+    }
+  },
+  {
+    "type": "Region",
+    "location": "[578:581]",
+    "qualifiers": {
+      "region_name": [
+        "Beta-strand region"
+      ],
+      "note": [
+        "/evidence=ECO:0007829|PDB:8DLW."
+      ]
+    }
+  },
+  {
+    "type": "Region",
+    "location": "[583:588]",
+    "qualifiers": {
+      "region_name": [
+        "Beta-strand region"
+      ],
+      "note": [
+        "/evidence=ECO:0007829|PDB:8DLW."
+      ]
+    }
+  },
+  {
+    "type": "Region",
+    "location": "[591:599]",
+    "qualifiers": {
+      "region_name": [
+        "Beta-strand region"
+      ],
+      "note": [
+        "/evidence=ECO:0007829|PDB:8DLW."
+      ]
+    }
+  },
+  {
+    "type": "Region",
+    "location": "[601:604]",
+    "qualifiers": {
+      "region_name": [
+        "Hydrogen bonded turn"
+      ],
+      "note": [
+        "/evidence=ECO:0007829|PDB:8DLW."
+      ]
+    }
+  },
+  {
+    "type": "Site",
+    "location": "order{[602:603], [615:616], [656:657], [708:709], [716:717], [800:801], [1073:1074], [1097:1098], [1133:1134], [1157:1158], [1172:1173], [1193:1194]}",
+    "qualifiers": {
+      "site_type": [
+        "other"
+      ],
+      "note": [
+        "N-linked glycosylation sites [posttranslational modification]"
+      ],
+      "db_xref": [
+        "CDD:411965"
+      ]
+    }
+  },
+  {
+    "type": "Site",
+    "location": "[602:603]",
+    "qualifiers": {
+      "site_type": [
+        "glycosylation"
+      ],
+      "note": [
+        "N-linked (GlcNAc...) (hybrid) asparagine; by host. /evidence=ECO:0000255|HAMAP-Rule:MF_04099, ECO:0000269|PubMed:32155444, ECO:0000269|PubMed:32366695, ECO:0000269|PubMed:32979942."
+      ]
+    }
+  },
+  {
+    "type": "Region",
+    "location": "[608:613]",
+    "qualifiers": {
+      "region_name": [
+        "Beta-strand region"
+      ],
+      "note": [
+        "/evidence=ECO:0007829|PDB:8DLW."
+      ]
+    }
+  },
+  {
+    "type": "Region",
+    "location": "[612:613]",
+    "qualifiers": {
+      "region_name": [
+        "Variant"
+      ],
+      "note": [
+        "Q -> H (in strain: A23.1). /evidence=ECO:0000305."
+      ]
+    }
+  },
+  {
+    "type": "Region",
+    "location": "[613:614]",
+    "qualifiers": {
+      "region_name": [
+        "Variant"
+      ],
+      "note": [
+        "D -> G (in strain: Alpha/B.1.1.7, Beta/B.1.351, Gamma/P.1, Delta/B.1.617.2, Epsilon/B.1.427/B.1.429, Eta/ B.1.525, Theta/P.3, Iota/B.1.526, Kappa/B.1.617.1, Lambda/ C.37, B.1.1.318, Zeta/P.2, Mu/B.1.621, 20A.EU1, 20A.EU2, Omicron/BA.1, Omicron/BA.2, Omicron/BA.2.12.1, Omicron/ BA.2.75, Omicron/BA.4, Omicron/BA.5, Omicron/BQ.1.1, Omicron/XBB.1.5, Omicron/EG.5.1; common variant; binds to hACE2 more efficiently; produces more infectious particles when cultured in primary human epithelial cells; does not significantly shift SARS-CoV-2 neutralization properties). /evidence=ECO:0000269|PubMed:33417835, ECO:0000305, ECO:0000305|PubMed:32132184, ECO:0000305|PubMed:32697968, ECO:0000305|PubMed:32820179, ECO:0000305|PubMed:33106671, ECO:0000305|PubMed:33184236, ECO:0000305|PubMed:33413740, ECO:0000305|PubMed:33636719."
+      ]
+    }
+  },
+  {
+    "type": "Site",
+    "location": "[613:614]",
+    "qualifiers": {
+      "site_type": [
+        "mutagenized"
+      ],
+      "note": [
+        "D->G: Increase of pseudotyped VSV particle production ex vivo. Increase of viral load in hamster upper respiratory tract. Produces more infectious particles when cultured in primary human epithelial cells; increases replication and transmissibility in hamsters and ferrets. /evidence=ECO:0000269|PubMed:32697968, ECO:0000269|PubMed:33106671, ECO:0000269|PubMed:33636719."
+      ]
+    }
+  },
+  {
+    "type": "Site",
+    "location": "[615:616]",
+    "qualifiers": {
+      "site_type": [
+        "glycosylation"
+      ],
+      "note": [
+        "N-linked (GlcNAc...) (complex) asparagine; by host. /evidence=ECO:0000255|HAMAP-Rule:MF_04099, ECO:0000269|PubMed:32155444, ECO:0000269|PubMed:32363391, ECO:0000269|PubMed:32366695, ECO:0000269|PubMed:32979942."
+      ]
+    }
+  },
+  {
+    "type": "Bond",
+    "location": "bond{[616:617], [648:649]}",
+    "qualifiers": {
+      "bond_type": [
+        "disulfide"
+      ],
+      "note": [
+        "/evidence=ECO:0000269|PubMed:32155444, ECO:0007744|PDB:6VXX."
+      ]
+    }
+  },
+  {
+    "type": "Region",
+    "location": "[616:619]",
+    "qualifiers": {
+      "region_name": [
+        "Hydrogen bonded turn"
+      ],
+      "note": [
+        "/evidence=ECO:0007829|PDB:8DLW."
+      ]
+    }
+  },
+  {
+    "type": "Region",
+    "location": "[619:622]",
+    "qualifiers": {
+      "region_name": [
+        "Helical region"
+      ],
+      "note": [
+        "/evidence=ECO:0007829|PDB:8CXQ."
+      ]
+    }
+  },
+  {
+    "type": "Region",
+    "location": "[620:640]",
+    "qualifiers": {
+      "region_name": [
+        "Region of interest in the sequence"
+      ],
+      "note": [
+        "Disordered. /evidence=ECO:0000305|PubMed:35108439."
+      ]
+    }
+  },
+  {
+    "type": "Region",
+    "location": "[623:626]",
+    "qualifiers": {
+      "region_name": [
+        "Beta-strand region"
+      ],
+      "note": [
+        "/evidence=ECO:0007829|PDB:8JYM."
+      ]
+    }
+  },
+  {
+    "type": "Region",
+    "location": "[627:631]",
+    "qualifiers": {
+      "region_name": [
+        "Beta-strand region"
+      ],
+      "note": [
+        "/evidence=ECO:0007829|PDB:8R1C."
+      ]
+    }
+  },
+  {
+    "type": "Region",
+    "location": "[633:636]",
+    "qualifiers": {
+      "region_name": [
+        "Beta-strand region"
+      ],
+      "note": [
+        "/evidence=ECO:0007829|PDB:7QUS."
+      ]
+    }
+  },
+  {
+    "type": "Region",
+    "location": "[636:639]",
+    "qualifiers": {
+      "region_name": [
+        "Hydrogen bonded turn"
+      ],
+      "note": [
+        "/evidence=ECO:0007829|PDB:8R1C."
+      ]
+    }
+  },
+  {
+    "type": "Region",
+    "location": "[641:645]",
+    "qualifiers": {
+      "region_name": [
+        "Beta-strand region"
+      ],
+      "note": [
+        "/evidence=ECO:0007829|PDB:8DLW."
+      ]
+    }
+  },
+  {
+    "type": "Region",
+    "location": "[647:652]",
+    "qualifiers": {
+      "region_name": [
+        "Beta-strand region"
+      ],
+      "note": [
+        "/evidence=ECO:0007829|PDB:8DLW."
+      ]
+    }
+  },
+  {
+    "type": "Region",
+    "location": "[652:653]",
+    "qualifiers": {
+      "region_name": [
+        "Variant"
+      ],
+      "note": [
+        "A -> V (in strain: 19B/501Y). /evidence=ECO:0000305."
+      ]
+    }
+  },
+  {
+    "type": "Region",
+    "location": "[653:660]",
+    "qualifiers": {
+      "region_name": [
+        "Beta-strand region"
+      ],
+      "note": [
+        "/evidence=ECO:0007829|PDB:8R1D."
+      ]
+    }
+  },
+  {
+    "type": "Region",
+    "location": "[654:655]",
+    "qualifiers": {
+      "region_name": [
+        "Variant"
+      ],
+      "note": [
+        "H -> Y (in strain: Gamma/P.1, 19B/501T, 19B/501Y, Omicron/BA.1, Omicron/BA.2, Omicron/BA.2.12.1, Omicron/ BA.2.75, Omicron/BA.4, Omicron/BA.5, Omicron/BQ.1.1, Omicron/XBB.1.5, Omicron/EG.5.1). /evidence=ECO:0000305."
+      ]
+    }
+  },
+  {
+    "type": "Site",
+    "location": "[656:657]",
+    "qualifiers": {
+      "site_type": [
+        "glycosylation"
+      ],
+      "note": [
+        "N-linked (GlcNAc...) (complex) asparagine; by host. /evidence=ECO:0000255|HAMAP-Rule:MF_04099, ECO:0000269|PubMed:32155444, ECO:0000269|PubMed:32363391, ECO:0000269|PubMed:32366695, ECO:0000269|PubMed:32979942."
+      ]
+    }
+  },
+  {
+    "type": "Bond",
+    "location": "bond{[661:662], [670:671]}",
+    "qualifiers": {
+      "bond_type": [
+        "disulfide"
+      ],
+      "note": [
+        "/evidence=ECO:0000269|PubMed:32155444, ECO:0007744|PDB:6VXX."
+      ]
+    }
+  },
+  {
+    "type": "Region",
+    "location": "[662:667]",
+    "qualifiers": {
+      "region_name": [
+        "Beta-strand region"
+      ],
+      "note": [
+        "/evidence=ECO:0007829|PDB:8DLW."
+      ]
+    }
+  },
+  {
+    "type": "Region",
+    "location": "[669:674]",
+    "qualifiers": {
+      "region_name": [
+        "Beta-strand region"
+      ],
+      "note": [
+        "/evidence=ECO:0007829|PDB:8DLW."
+      ]
+    }
+  },
+  {
+    "type": "Site",
+    "location": "order{[671:676], [677:678], [682:688], [689:709]}",
+    "qualifiers": {
+      "site_type": [
+        "other"
+      ],
+      "note": [
+        "S1/S2 cleavage region"
+      ],
+      "db_xref": [
+        "CDD:411965"
+      ]
+    }
+  },
+  {
+    "type": "Region",
+    "location": "[672:687]",
+    "qualifiers": {
+      "region_name": [
+        "Region of interest in the sequence"
+      ],
+      "note": [
+        "Disordered. /evidence=ECO:0000305|PubMed:35108439."
+      ]
+    }
+  },
+  {
+    "type": "Site",
+    "location": "[672:673]",
+    "qualifiers": {
+      "site_type": [
+        "mutagenized"
+      ],
+      "note": [
+        "S->A: No effect on O-glycosylation by host GALNT1. /evidence=ECO:0000269|PubMed:34732583."
+      ]
+    }
+  },
+  {
+    "type": "Region",
+    "location": "[675:678]",
+    "qualifiers": {
+      "region_name": [
+        "Beta-strand region"
+      ],
+      "note": [
+        "/evidence=ECO:0007829|PDB:7V20."
+      ]
+    }
+  },
+  {
+    "type": "Site",
+    "location": "[675:676]",
+    "qualifiers": {
+      "site_type": [
+        "glycosylation"
+      ],
+      "note": [
+        "O-linked (GlcNAc...) threonine; by host GALNT1. /evidence=ECO:0000269|PubMed:34732583."
+      ]
+    }
+  },
+  {
+    "type": "Site",
+    "location": "[675:676]",
+    "qualifiers": {
+      "site_type": [
+        "mutagenized"
+      ],
+      "note": [
+        "T->A: Partial loss of O-glycosylation by host GALNT1. /evidence=ECO:0000269|PubMed:34732583."
+      ]
+    }
+  },
+  {
+    "type": "Region",
+    "location": "[676:677]",
+    "qualifiers": {
+      "region_name": [
+        "Variant"
+      ],
+      "note": [
+        "Q -> H (in strain: Eta/B.1.525). /evidence=ECO:0000305."
+      ]
+    }
+  },
+  {
+    "type": "Site",
+    "location": "[677:678]",
+    "qualifiers": {
+      "site_type": [
+        "glycosylation"
+      ],
+      "note": [
+        "O-linked (GlcNAc...) threonine; by host GALNT1. /evidence=ECO:0000269|PubMed:34732583."
+      ]
+    }
+  },
+  {
+    "type": "Site",
+    "location": "[677:678]",
+    "qualifiers": {
+      "site_type": [
+        "mutagenized"
+      ],
+      "note": [
+        "T->A: Complete loss of O-glycosylation by host GALNT1. /evidence=ECO:0000269|PubMed:34732583."
+      ]
+    }
+  },
+  {
+    "type": "Site",
+    "location": "[678:684]",
+    "qualifiers": {
+      "site_type": [
+        "mutagenized"
+      ],
+      "note": [
+        "NSPRRA->IL: About 50% stronger entry efficiency in Vero E6 cells while 30% weaker entry efficiency in hACE2-expressing BHK cells. /evidence=ECO:0000269|PubMed:32155444."
+      ]
+    }
+  },
+  {
+    "type": "Region",
+    "location": "[678:679]",
+    "qualifiers": {
+      "region_name": [
+        "Variant"
+      ],
+      "note": [
+        "N -> K (in strain: Omicron/BA.1, Omicron/BA.2, Omicron/BA.2.12.1, Omicron/BA.4, Omicron/BA.5, Omicron/ BQ.1.1, Omicron/XBB.1.5, Omicron/EG.5.1). /evidence=ECO:0000305."
+      ]
+    }
+  },
+  {
+    "type": "Region",
+    "location": "[679:684]",
+    "qualifiers": {
+      "region_name": [
+        "Helical region"
+      ],
+      "note": [
+        "/evidence=ECO:0007829|PDB:7TPR."
+      ]
+    }
+  },
+  {
+    "type": "Site",
+    "location": "[679:680]",
+    "qualifiers": {
+      "site_type": [
+        "mutagenized"
+      ],
+      "note": [
+        "S->A: No effect on O-glycosylation by host GALNT1. /evidence=ECO:0000269|PubMed:34732583."
+      ]
+    }
+  },
+  {
+    "type": "Region",
+    "location": "[680:684]",
+    "qualifiers": {
+      "region_name": [
+        "Region of interest in the sequence"
+      ],
+      "note": [
+        "Putative superantigen; may bind T-cell receptor beta/TRBC1. /evidence=ECO:0000303|PubMed:32989130."
+      ]
+    }
+  },
+  {
+    "type": "Site",
+    "location": "[680:684]",
+    "qualifiers": {
+      "site_type": [
+        "mutagenized"
+      ],
+      "note": [
+        "PRRA->RRRK: Optimized cleavage by host furin. /evidence=ECO:0000269|PubMed:32362314."
+      ]
+    }
+  },
+  {
+    "type": "Region",
+    "location": "[680:681]",
+    "qualifiers": {
+      "region_name": [
+        "Variant"
+      ],
+      "note": [
+        "P -> H (in strain: Alpha/B.1.1.7, Theta/P.3, Mu/ B.1.621, B.1.1.318, A23.1, Omicron/BA.1, Omicron/BA.2, Omicron/BA.2.12.1, Omicron/BA.2.75, Omicron/BA.4, Omicron/ BA.5, Omicron/BQ.1.1, Omicron/XBB.1.5, Omicron/EG.5.1). /evidence=ECO:0000305, ECO:0000305|PubMed:33413740."
+      ]
+    }
+  },
+  {
+    "type": "Region",
+    "location": "[680:681]",
+    "qualifiers": {
+      "region_name": [
+        "Variant"
+      ],
+      "note": [
+        "P -> R (in strain: Delta/B.1.617.2, Kappa/ B.1.617.1)."
+      ]
+    }
+  },
+  {
+    "type": "Site",
+    "location": "[680:681]",
+    "qualifiers": {
+      "site_type": [
+        "mutagenized"
+      ],
+      "note": [
+        "P->A,H,R: Complete loss of O-glycosylation by host GALNT1. /evidence=ECO:0000269|PubMed:34732583."
+      ]
+    }
+  },
+  {
+    "type": "Site",
+    "location": "[681:685]",
+    "qualifiers": {
+      "site_type": [
+        "mutagenized"
+      ],
+      "note": [
+        "RRAR->SRAG: Stabilization in prefusion state (in vaccine Ad26.COV2.S/Janssen Pharmaceutical). /evidence=ECO:0000305|PubMed:34322129."
+      ]
+    }
+  },
+  {
+    "type": "Site",
+    "location": "[681:684]",
+    "qualifiers": {
+      "site_type": [
+        "mutagenized"
+      ],
+      "note": [
+        "Missing: Complete loss of cleavage by host furin. /evidence=ECO:0000269|PubMed:32362314."
+      ]
+    }
+  },
+  {
+    "type": "Site",
+    "location": "[683:684]",
+    "qualifiers": {
+      "site_type": [
+        "mutagenized"
+      ],
+      "note": [
+        "A->K,R: Partial improvement of cleavage by host furin. /evidence=ECO:0000269|PubMed:32703818."
+      ]
+    }
+  },
+  {
+    "type": "Site",
+    "location": "[684:686]",
+    "qualifiers": {
+      "site_type": [
+        "cleavage"
+      ],
+      "note": [
+        "Cleavage; by host furin. /evidence=ECO:0000255|HAMAP-Rule:MF_04099, ECO:0000269|PubMed:32142651, ECO:0000269|PubMed:32362314, ECO:0000269|PubMed:32703818, ECO:0000269|PubMed:34159616."
+      ]
+    }
+  },
+  {
+    "type": "Region",
+    "location": "[685:1273]",
+    "qualifiers": {
+      "region_name": [
+        "Mature chain"
+      ],
+      "note": [
+        "Spike protein S2. /evidence=ECO:0000255|HAMAP-Rule:MF_04099. /id=PRO_0000449648."
+      ]
+    }
+  },
+  {
+    "type": "Region",
+    "location": "[685:688]",
+    "qualifiers": {
+      "region_name": [
+        "Beta-strand region"
+      ],
+      "note": [
+        "/evidence=ECO:0007829|PDB:7VHM."
+      ]
+    }
+  },
+  {
+    "type": "Region",
+    "location": "[688:691]",
+    "qualifiers": {
+      "region_name": [
+        "Beta-strand region"
+      ],
+      "note": [
+        "/evidence=ECO:0007829|PDB:7N0G."
+      ]
+    }
+  },
+  {
+    "type": "Region",
+    "location": "[691:697]",
+    "qualifiers": {
+      "region_name": [
+        "Beta-strand region"
+      ],
+      "note": [
+        "/evidence=ECO:0007829|PDB:8DLW."
+      ]
+    }
+  },
+  {
+    "type": "Region",
+    "location": "[700:704]",
+    "qualifiers": {
+      "region_name": [
+        "Beta-strand region"
+      ],
+      "note": [
+        "/evidence=ECO:0007829|PDB:8DLW."
+      ]
+    }
+  },
+  {
+    "type": "Region",
+    "location": "[700:701]",
+    "qualifiers": {
+      "region_name": [
+        "Variant"
+      ],
+      "note": [
+        "A -> V (in strain: Beta/B.1.351, Iota/B.1.526). /evidence=ECO:0000305, ECO:0000305|PubMed:33690265."
+      ]
+    }
+  },
+  {
+    "type": "Region",
+    "location": "[703:704]",
+    "qualifiers": {
+      "region_name": [
+        "Variant"
+      ],
+      "note": [
+        "S -> L (in strain: Omicron/BA.2.12.1). /evidence=ECO:0000305."
+      ]
+    }
+  },
+  {
+    "type": "Region",
+    "location": "[704:707]",
+    "qualifiers": {
+      "region_name": [
+        "Hydrogen bonded turn"
+      ],
+      "note": [
+        "/evidence=ECO:0007829|PDB:8FDW."
+      ]
+    }
+  },
+  {
+    "type": "Site",
+    "location": "[708:709]",
+    "qualifiers": {
+      "site_type": [
+        "glycosylation"
+      ],
+      "note": [
+        "N-linked (GlcNAc...) (high mannose) asparagine; by host. /evidence=ECO:0000255|HAMAP-Rule:MF_04099, ECO:0000269|PubMed:32155444, ECO:0000269|PubMed:32363391, ECO:0000269|PubMed:32366695, ECO:0000269|PubMed:32979942."
+      ]
+    }
+  },
+  {
+    "type": "Region",
+    "location": "[710:713]",
+    "qualifiers": {
+      "region_name": [
+        "Beta-strand region"
+      ],
+      "note": [
+        "/evidence=ECO:0007829|PDB:8DLW."
+      ]
+    }
+  },
+  {
+    "type": "Region",
+    "location": "[713:716]",
+    "qualifiers": {
+      "region_name": [
+        "Beta-strand region"
+      ],
+      "note": [
+        "/evidence=ECO:0007829|PDB:8G77."
+      ]
+    }
+  },
+  {
+    "type": "Region",
+    "location": "[715:716]",
+    "qualifiers": {
+      "region_name": [
+        "Variant"
+      ],
+      "note": [
+        "T -> I (in strain: Alpha/B.1.1.7). /evidence=ECO:0000305|PubMed:33413740."
+      ]
+    }
+  },
+  {
+    "type": "Site",
+    "location": "[716:717]",
+    "qualifiers": {
+      "site_type": [
+        "glycosylation"
+      ],
+      "note": [
+        "N-linked (GlcNAc...) (hybrid) asparagine; by host. /evidence=ECO:0000255|HAMAP-Rule:MF_04099, ECO:0000269|PubMed:32155444, ECO:0000269|PubMed:32363391, ECO:0000269|PubMed:32366695, ECO:0000269|PubMed:32979942."
+      ]
+    }
+  },
+  {
+    "type": "Region",
+    "location": "[717:728]",
+    "qualifiers": {
+      "region_name": [
+        "Beta-strand region"
+      ],
+      "note": [
+        "/evidence=ECO:0007829|PDB:8DLW."
+      ]
+    }
+  },
+  {
+    "type": "Region",
+    "location": "[732:736]",
+    "qualifiers": {
+      "region_name": [
+        "Beta-strand region"
+      ],
+      "note": [
+        "/evidence=ECO:0007829|PDB:8DLW."
+      ]
+    }
+  },
+  {
+    "type": "Bond",
+    "location": "bond{[737:738], [759:760]}",
+    "qualifiers": {
+      "bond_type": [
+        "disulfide"
+      ],
+      "note": [
+        "/evidence=ECO:0000269|PubMed:32155444, ECO:0007744|PDB:6VXX."
+      ]
+    }
+  },
+  {
+    "type": "Region",
+    "location": "[737:743]",
+    "qualifiers": {
+      "region_name": [
+        "Helical region"
+      ],
+      "note": [
+        "/evidence=ECO:0007829|PDB:8DLW."
+      ]
+    }
+  },
+  {
+    "type": "Bond",
+    "location": "bond{[742:743], [748:749]}",
+    "qualifiers": {
+      "bond_type": [
+        "disulfide"
+      ],
+      "note": [
+        "/evidence=ECO:0000269|PubMed:32155444, ECO:0007744|PDB:6VXX."
+      ]
+    }
+  },
+  {
+    "type": "Region",
+    "location": "[746:753]",
+    "qualifiers": {
+      "region_name": [
+        "Helical region"
+      ],
+      "note": [
+        "/evidence=ECO:0007829|PDB:8DLW."
+      ]
+    }
+  },
+  {
+    "type": "Region",
+    "location": "[753:756]",
+    "qualifiers": {
+      "region_name": [
+        "Helical region"
+      ],
+      "note": [
+        "/evidence=ECO:0007829|PDB:8DLW."
+      ]
+    }
+  },
+  {
+    "type": "Region",
+    "location": "[756:790]",
+    "qualifiers": {
+      "region_name": [
+        "Helical region"
+      ],
+      "note": [
+        "/evidence=ECO:0007829|PDB:7ZR2."
+      ]
+    }
+  },
+  {
+    "type": "Region",
+    "location": "[763:764]",
+    "qualifiers": {
+      "region_name": [
+        "Variant"
+      ],
+      "note": [
+        "N -> K (in strain: Omicron/BA.1, Omicron/BA.2, Omicron/BA.2.12.1, Omicron/BA.2.75, Omicron/BA.4, Omicron/ BA.5, Omicron/BQ.1.1, Omicron/XBB.1.5, Omicron/EG.5.1). /evidence=ECO:0000305."
+      ]
+    }
+  },
+  {
+    "type": "Site",
+    "location": "[787:806]",
+    "qualifiers": {
+      "site_type": [
+        "other"
+      ],
+      "note": [
+        "fusion peptide"
+      ],
+      "db_xref": [
+        "CDD:411965"
+      ]
+    }
+  },
+  {
+    "type": "Region",
+    "location": "[795:809]",
+    "qualifiers": {
+      "region_name": [
+        "Helical region"
+      ],
+      "note": [
+        "/evidence=ECO:0007829|PDB:7ZR2."
+      ]
+    }
+  },
+  {
+    "type": "Region",
+    "location": "[795:796]",
+    "qualifiers": {
+      "region_name": [
+        "Variant"
+      ],
+      "note": [
+        "D -> H (in strain: B.1.1.318). /evidence=ECO:0000305."
+      ]
+    }
+  },
+  {
+    "type": "Region",
+    "location": "[795:796]",
+    "qualifiers": {
+      "region_name": [
+        "Variant"
+      ],
+      "note": [
+        "D -> Y (in strain: 19B/501Y, Omicron/BA.1, Omicron/ BA.2, Omicron/BA.2.12.1, Omicron/BA.2.75, Omicron/BA.4, Omicron/BA.5, Omicron/BQ.1.1, Omicron/XBB.1.5, Omicron/ EG.5.1). /evidence=ECO:0000305."
+      ]
+    }
+  },
+  {
+    "type": "Site",
+    "location": "[800:801]",
+    "qualifiers": {
+      "site_type": [
+        "glycosylation"
+      ],
+      "note": [
+        "N-linked (GlcNAc...) (hybrid) asparagine; by host. /evidence=ECO:0000255|HAMAP-Rule:MF_04099, ECO:0000269|PubMed:32155444, ECO:0000269|PubMed:32363391, ECO:0000269|PubMed:32366695, ECO:0000269|PubMed:32979942."
+      ]
+    }
+  },
+  {
+    "type": "Region",
+    "location": "[812:818]",
+    "qualifiers": {
+      "region_name": [
+        "Helical region"
+      ],
+      "note": [
+        "/evidence=ECO:0007829|PDB:7ZR2."
+      ]
+    }
+  },
+  {
+    "type": "Site",
+    "location": "[814:816]",
+    "qualifiers": {
+      "site_type": [
+        "cleavage"
+      ],
+      "note": [
+        "Cleavage; by host TMPRSS2 or CTSL. /evidence=ECO:0000255|HAMAP-Rule:MF_04099, ECO:0000269|PubMed:32703818, ECO:0000269|PubMed:34159616."
+      ]
+    }
+  },
+  {
+    "type": "Region",
+    "location": "[815:1273]",
+    "qualifiers": {
+      "region_name": [
+        "Mature chain"
+      ],
+      "note": [
+        "Spike protein S2'. /evidence=ECO:0000255|HAMAP-Rule:MF_04099. /id=PRO_0000449649."
+      ]
+    }
+  },
+  {
+    "type": "Region",
+    "location": "[815:837]",
+    "qualifiers": {
+      "region_name": [
+        "Region of interest in the sequence"
+      ],
+      "note": [
+        "Fusion peptide 1. /evidence=ECO:0000255|HAMAP-Rule:MF_04099."
+      ]
+    }
+  },
+  {
+    "type": "Site",
+    "location": "[815:833]",
+    "qualifiers": {
+      "site_type": [
+        "other"
+      ],
+      "note": [
+        "internal fusion peptide"
+      ],
+      "db_xref": [
+        "CDD:411965"
+      ]
+    }
+  },
+  {
+    "type": "Region",
+    "location": "[819:826]",
+    "qualifiers": {
+      "region_name": [
+        "Helical region"
+      ],
+      "note": [
+        "/evidence=ECO:0007829|PDB:7ZR2."
+      ]
+    }
+  },
+  {
+    "type": "Region",
+    "location": "[826:830]",
+    "qualifiers": {
+      "region_name": [
+        "Helical region"
+      ],
+      "note": [
+        "/evidence=ECO:0007829|PDB:7TOW."
+      ]
+    }
+  },
+  {
+    "type": "Region",
+    "location": "[827:853]",
+    "qualifiers": {
+      "region_name": [
+        "Region of interest in the sequence"
+      ],
+      "note": [
+        "Disordered. /evidence=ECO:0000305|PubMed:35108439."
+      ]
+    }
+  },
+  {
+    "type": "Region",
+    "location": "[830:859]",
+    "qualifiers": {
+      "region_name": [
+        "Helical region"
+      ],
+      "note": [
+        "/evidence=ECO:0007829|PDB:7ZR2."
+      ]
+    }
+  },
+  {
+    "type": "Region",
+    "location": "[834:855]",
+    "qualifiers": {
+      "region_name": [
+        "Region of interest in the sequence"
+      ],
+      "note": [
+        "Fusion peptide 2. /evidence=ECO:0000255|HAMAP-Rule:MF_04099."
+      ]
+    }
+  },
+  {
+    "type": "Bond",
+    "location": "bond{[839:840], [850:851]}",
+    "qualifiers": {
+      "bond_type": [
+        "disulfide"
+      ],
+      "note": [
+        "/evidence=ECO:0000255|HAMAP-Rule:MF_04099."
+      ]
+    }
+  },
+  {
+    "type": "Region",
+    "location": "[855:856]",
+    "qualifiers": {
+      "region_name": [
+        "Variant"
+      ],
+      "note": [
+        "N -> K (in strain: Omicron/BA.1). /evidence=ECO:0000305."
+      ]
+    }
+  },
+  {
+    "type": "Region",
+    "location": "[858:859]",
+    "qualifiers": {
+      "region_name": [
+        "Variant"
+      ],
+      "note": [
+        "T -> N (in strain: Lambda/C.37). /evidence=ECO:0000305."
+      ]
+    }
+  },
+  {
+    "type": "Region",
+    "location": "[866:869]",
+    "qualifiers": {
+      "region_name": [
+        "Hydrogen bonded turn"
+      ],
+      "note": [
+        "/evidence=ECO:0007829|PDB:7XD2."
+      ]
+    }
+  },
+  {
+    "type": "Region",
+    "location": "[871:877]",
+    "qualifiers": {
+      "region_name": [
+        "Helical region"
+      ],
+      "note": [
+        "/evidence=ECO:0007829|PDB:7ZR2."
+      ]
+    }
+  },
+  {
+    "type": "Region",
+    "location": "[879:883]",
+    "qualifiers": {
+      "region_name": [
+        "Helical region"
+      ],
+      "note": [
+        "/evidence=ECO:0007829|PDB:7C2L."
+      ]
+    }
+  },
+  {
+    "type": "Region",
+    "location": "[883:901]",
+    "qualifiers": {
+      "region_name": [
+        "Helical region"
+      ],
+      "note": [
+        "/evidence=ECO:0007829|PDB:7ZR2."
+      ]
+    }
+  },
+  {
+    "type": "Region",
+    "location": "[887:888]",
+    "qualifiers": {
+      "region_name": [
+        "Variant"
+      ],
+      "note": [
+        "F -> L (in strain: Eta/B.1.525). /evidence=ECO:0000305."
+      ]
+    }
+  },
+  {
+    "type": "Region",
+    "location": "[901:905]",
+    "qualifiers": {
+      "region_name": [
+        "Helical region"
+      ],
+      "note": [
+        "/evidence=ECO:0007829|PDB:7ZR2."
+      ]
+    }
+  },
+  {
+    "type": "Region",
+    "location": "[908:956]",
+    "qualifiers": {
+      "region_name": [
+        "Helical region"
+      ],
+      "note": [
+        "/evidence=ECO:0007829|PDB:7EK6."
+      ]
+    }
+  },
+  {
+    "type": "Region",
+    "location": "[917:983]",
+    "qualifiers": {
+      "region_name": [
+        "heptad repeat 1"
+      ],
+      "note": [
+        "heptad repeat 1 [structural motif]"
+      ],
+      "db_xref": [
+        "CDD:411965"
+      ]
+    }
+  },
+  {
+    "type": "Region",
+    "location": "[919:970]",
+    "qualifiers": {
+      "region_name": [
+        "Region of interest in the sequence"
+      ],
+      "note": [
+        "Heptad repeat 1. /evidence=ECO:0000255|HAMAP-Rule:MF_04099."
+      ]
+    }
+  },
+  {
+    "type": "Region",
+    "location": "[948:993]",
+    "qualifiers": {
+      "region_name": [
+        "Coiled-coil region"
+      ],
+      "note": [
+        "/evidence=ECO:0000255|HAMAP-Rule:MF_04099."
+      ]
+    }
+  },
+  {
+    "type": "Region",
+    "location": "[949:950]",
+    "qualifiers": {
+      "region_name": [
+        "Variant"
+      ],
+      "note": [
+        "D -> N (in strain: Delta/B.1.617.2, Mu/B.1.621). /evidence=ECO:0000305."
+      ]
+    }
+  },
+  {
+    "type": "Region",
+    "location": "[953:954]",
+    "qualifiers": {
+      "region_name": [
+        "Variant"
+      ],
+      "note": [
+        "Q -> H (in strain: Omicron/BA.1, Omicron/BA.2, Omicron/BA.2.12.1, Omicron/BA.2.75, Omicron/BA.4, Omicron/ BA.5, Omicron/BQ.1.1, Omicron/XBB.1.5, Omicron/EG.5.1). /evidence=ECO:0000305."
+      ]
+    }
+  },
+  {
+    "type": "Region",
+    "location": "[956:959]",
+    "qualifiers": {
+      "region_name": [
+        "Beta-strand region"
+      ],
+      "note": [
+        "/evidence=ECO:0007829|PDB:8H3E."
+      ]
+    }
+  },
+  {
+    "type": "Region",
+    "location": "[959:964]",
+    "qualifiers": {
+      "region_name": [
+        "Helical region"
+      ],
+      "note": [
+        "/evidence=ECO:0007829|PDB:8H3E."
+      ]
+    }
+  },
+  {
+    "type": "Region",
+    "location": "[964:967]",
+    "qualifiers": {
+      "region_name": [
+        "Helical region"
+      ],
+      "note": [
+        "/evidence=ECO:0007829|PDB:8DLW."
+      ]
+    }
+  },
+  {
+    "type": "Region",
+    "location": "[968:969]",
+    "qualifiers": {
+      "region_name": [
+        "Variant"
+      ],
+      "note": [
+        "N -> K (in strain: Omicron/BA.1, Omicron/BA.2, Omicron/BA.2.12.1, Omicron/BA.2.75, Omicron/BA.4, Omicron/ BA.5, Omicron/BQ.1.1, Omicron/XBB.1.5, Omicron/EG.5.1). /evidence=ECO:0000305."
+      ]
+    }
+  },
+  {
+    "type": "Region",
+    "location": "[969:973]",
+    "qualifiers": {
+      "region_name": [
+        "Beta-strand region"
+      ],
+      "note": [
+        "/evidence=ECO:0007829|PDB:8IOT."
+      ]
+    }
+  },
+  {
+    "type": "Region",
+    "location": "[976:983]",
+    "qualifiers": {
+      "region_name": [
+        "Helical region"
+      ],
+      "note": [
+        "/evidence=ECO:0007829|PDB:8DLW."
+      ]
+    }
+  },
+  {
+    "type": "Region",
+    "location": "[980:981]",
+    "qualifiers": {
+      "region_name": [
+        "Variant"
+      ],
+      "note": [
+        "L -> F (in strain: Omicron/BA.1). /evidence=ECO:0000305."
+      ]
+    }
+  },
+  {
+    "type": "Region",
+    "location": "[981:982]",
+    "qualifiers": {
+      "region_name": [
+        "Variant"
+      ],
+      "note": [
+        "S -> A (in strain: Alpha/B.1.1.7). /evidence=ECO:0000305|PubMed:33413740."
+      ]
+    }
+  },
+  {
+    "type": "Region",
+    "location": "[985:989]",
+    "qualifiers": {
+      "region_name": [
+        "Hydrogen bonded turn"
+      ],
+      "note": [
+        "/evidence=ECO:0007829|PDB:8WMF."
+      ]
+    }
+  },
+  {
+    "type": "Site",
+    "location": "[985:987]",
+    "qualifiers": {
+      "site_type": [
+        "mutagenized"
+      ],
+      "note": [
+        "KV->PP: Stabilization in prefusion state (in vaccine BNT162b2/Pfizer-Biontech, vaccine mRNA-1273/Moderna, vaccine Ad26.COV2.S/Janssen Pharmaceutical). /evidence=ECO:0000269|PubMed:34322129."
+      ]
+    }
+  },
+  {
+    "type": "Region",
+    "location": "[993:996]",
+    "qualifiers": {
+      "region_name": [
+        "Hydrogen bonded turn"
+      ],
+      "note": [
+        "/evidence=ECO:0007829|PDB:7EDF."
+      ]
+    }
+  },
+  {
+    "type": "Region",
+    "location": "[1008:1021]",
+    "qualifiers": {
+      "region_name": [
+        "Helical region"
+      ],
+      "note": [
+        "/evidence=ECO:0007829|PDB:6M1V."
+      ]
+    }
+  },
+  {
+    "type": "Region",
+    "location": "[1021:1025]",
+    "qualifiers": {
+      "region_name": [
+        "Helical region"
+      ],
+      "note": [
+        "/evidence=ECO:0007829|PDB:6M1V."
+      ]
+    }
+  },
+  {
+    "type": "Region",
+    "location": "[1026:1027]",
+    "qualifiers": {
+      "region_name": [
+        "Variant"
+      ],
+      "note": [
+        "T -> I (in strain: Gamma/P.1). /evidence=ECO:0000305."
+      ]
+    }
+  },
+  {
+    "type": "Region",
+    "location": "[1028:1031]",
+    "qualifiers": {
+      "region_name": [
+        "Helical region"
+      ],
+      "note": [
+        "/evidence=ECO:0007829|PDB:6M1V."
+      ]
+    }
+  },
+  {
+    "type": "Bond",
+    "location": "bond{[1031:1032], [1042:1043]}",
+    "qualifiers": {
+      "bond_type": [
+        "disulfide"
+      ],
+      "note": [
+        "/evidence=ECO:0000269|PubMed:32155444, ECO:0007744|PDB:6VXX."
+      ]
+    }
+  },
+  {
+    "type": "Region",
+    "location": "[1031:1034]",
+    "qualifiers": {
+      "region_name": [
+        "Hydrogen bonded turn"
+      ],
+      "note": [
+        "/evidence=ECO:0007829|PDB:8CY7."
+      ]
+    }
+  },
+  {
+    "type": "Region",
+    "location": "[1039:1042]",
+    "qualifiers": {
+      "region_name": [
+        "Hydrogen bonded turn"
+      ],
+      "note": [
+        "/evidence=ECO:0007829|PDB:8DLW."
+      ]
+    }
+  },
+  {
+    "type": "Region",
+    "location": "[1042:1056]",
+    "qualifiers": {
+      "region_name": [
+        "Beta-strand region"
+      ],
+      "note": [
+        "/evidence=ECO:0007829|PDB:8DLW."
+      ]
+    }
+  },
+  {
+    "type": "Region",
+    "location": "[1058:1069]",
+    "qualifiers": {
+      "region_name": [
+        "Beta-strand region"
+      ],
+      "note": [
+        "/evidence=ECO:0007829|PDB:8DLW."
+      ]
+    }
+  },
+  {
+    "type": "Region",
+    "location": "[1070:1073]",
+    "qualifiers": {
+      "region_name": [
+        "Beta-strand region"
+      ],
+      "note": [
+        "/evidence=ECO:0007829|PDB:7RU2."
+      ]
+    }
+  },
+  {
+    "type": "Region",
+    "location": "[1070:1071]",
+    "qualifiers": {
+      "region_name": [
+        "Variant"
+      ],
+      "note": [
+        "Q -> H (in strain: Kappa/B.1.617.1). /evidence=ECO:0000305."
+      ]
+    }
+  },
+  {
+    "type": "Region",
+    "location": "[1073:1079]",
+    "qualifiers": {
+      "region_name": [
+        "Beta-strand region"
+      ],
+      "note": [
+        "/evidence=ECO:0007829|PDB:8DLW."
+      ]
+    }
+  },
+  {
+    "type": "Site",
+    "location": "[1073:1074]",
+    "qualifiers": {
+      "site_type": [
+        "glycosylation"
+      ],
+      "note": [
+        "N-linked (GlcNAc...) (hybrid) asparagine; by host. /evidence=ECO:0000255|HAMAP-Rule:MF_04099, ECO:0000269|PubMed:32155444, ECO:0000269|PubMed:32363391, ECO:0000269|PubMed:32366695, ECO:0000269|PubMed:32979942."
+      ]
+    }
+  },
+  {
+    "type": "Region",
+    "location": "[1080:1100]",
+    "qualifiers": {
+      "region_name": [
+        "Beta-strand region"
+      ],
+      "note": [
+        "/evidence=ECO:0007829|PDB:8DLW."
+      ]
+    }
+  },
+  {
+    "type": "Bond",
+    "location": "bond{[1081:1082], [1125:1126]}",
+    "qualifiers": {
+      "bond_type": [
+        "disulfide"
+      ],
+      "note": [
+        "/evidence=ECO:0000269|PubMed:32155444, ECO:0007744|PDB:6VXX."
+      ]
+    }
+  },
+  {
+    "type": "Region",
+    "location": "[1091:1092]",
+    "qualifiers": {
+      "region_name": [
+        "Variant"
+      ],
+      "note": [
+        "E -> K (in strain: Theta/P.3). /evidence=ECO:0000305."
+      ]
+    }
+  },
+  {
+    "type": "Site",
+    "location": "[1097:1098]",
+    "qualifiers": {
+      "site_type": [
+        "glycosylation"
+      ],
+      "note": [
+        "N-linked (GlcNAc...) (complex) asparagine; by host. /evidence=ECO:0000255|HAMAP-Rule:MF_04099, ECO:0000269|PubMed:32155444, ECO:0000269|PubMed:32363391, ECO:0000269|PubMed:32366695, ECO:0000269|PubMed:32979942."
+      ]
+    }
+  },
+  {
+    "type": "Region",
+    "location": "[1100:1101]",
+    "qualifiers": {
+      "region_name": [
+        "Variant"
+      ],
+      "note": [
+        "H -> Y (in strain: Theta/P.3). /evidence=ECO:0000305."
+      ]
+    }
+  },
+  {
+    "type": "Region",
+    "location": "[1101:1105]",
+    "qualifiers": {
+      "region_name": [
+        "Beta-strand region"
+      ],
+      "note": [
+        "/evidence=ECO:0007829|PDB:8DLW."
+      ]
+    }
+  },
+  {
+    "type": "Region",
+    "location": "[1106:1109]",
+    "qualifiers": {
+      "region_name": [
+        "Beta-strand region"
+      ],
+      "note": [
+        "/evidence=ECO:0007829|PDB:7QUR."
+      ]
+    }
+  },
+  {
+    "type": "Region",
+    "location": "[1111:1114]",
+    "qualifiers": {
+      "region_name": [
+        "Beta-strand region"
+      ],
+      "note": [
+        "/evidence=ECO:0007829|PDB:7TLC."
+      ]
+    }
+  },
+  {
+    "type": "Region",
+    "location": "[1117:1118]",
+    "qualifiers": {
+      "region_name": [
+        "Variant"
+      ],
+      "note": [
+        "D -> H (in strain: Alpha/B.1.1.7). /evidence=ECO:0000305|PubMed:33413740."
+      ]
+    }
+  },
+  {
+    "type": "Region",
+    "location": "[1118:1125]",
+    "qualifiers": {
+      "region_name": [
+        "Beta-strand region"
+      ],
+      "note": [
+        "/evidence=ECO:0007829|PDB:8DLW."
+      ]
+    }
+  },
+  {
+    "type": "Region",
+    "location": "[1125:1128]",
+    "qualifiers": {
+      "region_name": [
+        "Hydrogen bonded turn"
+      ],
+      "note": [
+        "/evidence=ECO:0007829|PDB:8DLW."
+      ]
+    }
+  },
+  {
+    "type": "Region",
+    "location": "[1128:1131]",
+    "qualifiers": {
+      "region_name": [
+        "Beta-strand region"
+      ],
+      "note": [
+        "/evidence=ECO:0007829|PDB:8C2R."
+      ]
+    }
+  },
+  {
+    "type": "Region",
+    "location": "[1131:1134]",
+    "qualifiers": {
+      "region_name": [
+        "Beta-strand region"
+      ],
+      "note": [
+        "/evidence=ECO:0007829|PDB:7RU1."
+      ]
+    }
+  },
+  {
+    "type": "Site",
+    "location": "[1133:1134]",
+    "qualifiers": {
+      "site_type": [
+        "glycosylation"
+      ],
+      "note": [
+        "N-linked (GlcNAc...) (complex) asparagine; by host. /evidence=ECO:0000255|HAMAP-Rule:MF_04099, ECO:0000269|PubMed:32155444, ECO:0000269|PubMed:32366695, ECO:0000269|PubMed:32979942."
+      ]
+    }
+  },
+  {
+    "type": "Region",
+    "location": "[1139:1144]",
+    "qualifiers": {
+      "region_name": [
+        "Hydrogen bonded turn"
+      ],
+      "note": [
+        "/evidence=ECO:0007829|PDB:7LXY."
+      ]
+    }
+  },
+  {
+    "type": "Region",
+    "location": "[1147:1155]",
+    "qualifiers": {
+      "region_name": [
+        "Helical region"
+      ],
+      "note": [
+        "/evidence=ECO:0007829|PDB:7M53."
+      ]
+    }
+  },
+  {
+    "type": "Region",
+    "location": "[1155:1158]",
+    "qualifiers": {
+      "region_name": [
+        "Hydrogen bonded turn"
+      ],
+      "note": [
+        "/evidence=ECO:0007829|PDB:8DTT."
+      ]
+    }
+  },
+  {
+    "type": "Site",
+    "location": "[1157:1158]",
+    "qualifiers": {
+      "site_type": [
+        "glycosylation"
+      ],
+      "note": [
+        "N-linked (GlcNAc...) (complex) asparagine; by host. /evidence=ECO:0000255|HAMAP-Rule:MF_04099, ECO:0000269|PubMed:32366695, ECO:0000269|PubMed:32979942."
+      ]
+    }
+  },
+  {
+    "type": "Region",
+    "location": "[1161:1203]",
+    "qualifiers": {
+      "region_name": [
+        "heptad repeat 2"
+      ],
+      "note": [
+        "heptad repeat 2 [structural motif]"
+      ],
+      "db_xref": [
+        "CDD:411965"
+      ]
+    }
+  },
+  {
+    "type": "Region",
+    "location": "[1162:1202]",
+    "qualifiers": {
+      "region_name": [
+        "Region of interest in the sequence"
+      ],
+      "note": [
+        "Heptad repeat 2. /evidence=ECO:0000255|HAMAP-Rule:MF_04099."
+      ]
+    }
+  },
+  {
+    "type": "Region",
+    "location": "[1168:1171]",
+    "qualifiers": {
+      "region_name": [
+        "Helical region"
+      ],
+      "note": [
+        "/evidence=ECO:0007829|PDB:7ZR2."
+      ]
+    }
+  },
+  {
+    "type": "Site",
+    "location": "[1172:1173]",
+    "qualifiers": {
+      "site_type": [
+        "glycosylation"
+      ],
+      "note": [
+        "N-linked (GlcNAc...) (complex) asparagine; by host. /evidence=ECO:0000255|HAMAP-Rule:MF_04099, ECO:0000269|PubMed:32366695, ECO:0000269|PubMed:32979942."
+      ]
+    }
+  },
+  {
+    "type": "Region",
+    "location": "[1175:1203]",
+    "qualifiers": {
+      "region_name": [
+        "Coiled-coil region"
+      ],
+      "note": [
+        "/evidence=ECO:0000255|HAMAP-Rule:MF_04099."
+      ]
+    }
+  },
+  {
+    "type": "Region",
+    "location": "[1175:1176]",
+    "qualifiers": {
+      "region_name": [
+        "Variant"
+      ],
+      "note": [
+        "V -> F (in strain: Gamma/P.1, Theta/P.3, Zeta/P.2). /evidence=ECO:0000305."
+      ]
+    }
+  },
+  {
+    "type": "Region",
+    "location": "[1179:1192]",
+    "qualifiers": {
+      "region_name": [
+        "Helical region"
+      ],
+      "note": [
+        "/evidence=ECO:0007829|PDB:7EK6."
+      ]
+    }
+  },
+  {
+    "type": "Region",
+    "location": "[1192:1196]",
+    "qualifiers": {
+      "region_name": [
+        "Helical region"
+      ],
+      "note": [
+        "/evidence=ECO:0007829|PDB:7EK6."
+      ]
+    }
+  },
+  {
+    "type": "Site",
+    "location": "[1193:1194]",
+    "qualifiers": {
+      "site_type": [
+        "glycosylation"
+      ],
+      "note": [
+        "N-linked (GlcNAc...) (complex) asparagine; by host. /evidence=ECO:0000255|HAMAP-Rule:MF_04099, ECO:0000269|PubMed:32363391, ECO:0000269|PubMed:32366695, ECO:0000269|PubMed:32979942."
+      ]
+    }
+  },
+  {
+    "type": "Region",
+    "location": "[1213:1234]",
+    "qualifiers": {
+      "region_name": [
+        "Transmembrane region"
+      ],
+      "note": [
+        "Helical. /evidence=ECO:0000255|HAMAP-Rule:MF_04099."
+      ]
+    }
+  },
+  {
+    "type": "Region",
+    "location": "[1213:1218]",
+    "qualifiers": {
+      "region_name": [
+        "Hydrogen bonded turn"
+      ],
+      "note": [
+        "/evidence=ECO:0007829|PDB:8FDW."
+      ]
+    }
+  },
+  {
+    "type": "Region",
+    "location": "[1218:1233]",
+    "qualifiers": {
+      "region_name": [
+        "Helical region"
+      ],
+      "note": [
+        "/evidence=ECO:0007829|PDB:8FDW."
+      ]
+    }
+  },
+  {
+    "type": "Region",
+    "location": "[1218:1219]",
+    "qualifiers": {
+      "region_name": [
+        "Variant"
+      ],
+      "note": [
+        "G -> V (in strain: 19B/501Y). /evidence=ECO:0000305."
+      ]
+    }
+  },
+  {
+    "type": "Region",
+    "location": "[1234:1273]",
+    "qualifiers": {
+      "region_name": [
+        "Topological domain"
+      ],
+      "note": [
+        "Cytoplasmic. /evidence=ECO:0000255|HAMAP-Rule:MF_04099."
+      ]
+    }
+  },
+  {
+    "type": "Site",
+    "location": "[1234:1235]",
+    "qualifiers": {
+      "site_type": [
+        "lipid-binding"
+      ],
+      "note": [
+        "S-palmitoyl cysteine; by host ZDHHC20. /evidence=ECO:0000269|PubMed:34599882."
+      ]
+    }
+  },
+  {
+    "type": "Site",
+    "location": "[1235:1236]",
+    "qualifiers": {
+      "site_type": [
+        "lipid-binding"
+      ],
+      "note": [
+        "S-palmitoyl cysteine; by host ZDHHC20. /evidence=ECO:0000269|PubMed:34599882."
+      ]
+    }
+  },
+  {
+    "type": "Region",
+    "location": "[1236:1241]",
+    "qualifiers": {
+      "region_name": [
+        "Short sequence motif of biological interest"
+      ],
+      "note": [
+        "Binding to host endocytosis trafficking protein SNX27. /evidence=ECO:0000269|PubMed:34504087."
+      ]
+    }
+  },
+  {
+    "type": "Region",
+    "location": "[1237:1248]",
+    "qualifiers": {
+      "region_name": [
+        "Helical region"
+      ],
+      "note": [
+        "/evidence=ECO:0007829|PDB:8FDW."
+      ]
+    }
+  },
+  {
+    "type": "Site",
+    "location": "[1239:1240]",
+    "qualifiers": {
+      "site_type": [
+        "lipid-binding"
+      ],
+      "note": [
+        "S-palmitoyl cysteine; by host ZDHHC20. /evidence=ECO:0000269|PubMed:34599882."
+      ]
+    }
+  },
+  {
+    "type": "Site",
+    "location": "[1240:1241]",
+    "qualifiers": {
+      "site_type": [
+        "lipid-binding"
+      ],
+      "note": [
+        "S-palmitoyl cysteine; by host ZDHHC20. /evidence=ECO:0000269|PubMed:34599882."
+      ]
+    }
+  },
+  {
+    "type": "Site",
+    "location": "[1242:1243]",
+    "qualifiers": {
+      "site_type": [
+        "lipid-binding"
+      ],
+      "note": [
+        "S-palmitoyl cysteine; by host ZDHHC20. /evidence=ECO:0000269|PubMed:34599882."
+      ]
+    }
+  },
+  {
+    "type": "Site",
+    "location": "[1246:1247]",
+    "qualifiers": {
+      "site_type": [
+        "lipid-binding"
+      ],
+      "note": [
+        "S-palmitoyl cysteine; by host ZDHHC20; partial. /evidence=ECO:0000269|PubMed:34599882."
+      ]
+    }
+  },
+  {
+    "type": "Site",
+    "location": "[1247:1248]",
+    "qualifiers": {
+      "site_type": [
+        "lipid-binding"
+      ],
+      "note": [
+        "S-palmitoyl cysteine; by host ZDHHC20; partial. /evidence=ECO:0000269|PubMed:34599882."
+      ]
+    }
+  },
+  {
+    "type": "Site",
+    "location": "[1249:1250]",
+    "qualifiers": {
+      "site_type": [
+        "lipid-binding"
+      ],
+      "note": [
+        "S-palmitoyl cysteine; by host ZDHHC20; partial. /evidence=ECO:0000269|PubMed:34599882."
+      ]
+    }
+  },
+  {
+    "type": "Site",
+    "location": "[1252:1253]",
+    "qualifiers": {
+      "site_type": [
+        "lipid-binding"
+      ],
+      "note": [
+        "S-palmitoyl cysteine; by host ZDHHC20; partial. /evidence=ECO:0000269|PubMed:34599882."
+      ]
+    }
+  },
+  {
+    "type": "Site",
+    "location": "[1253:1254]",
+    "qualifiers": {
+      "site_type": [
+        "lipid-binding"
+      ],
+      "note": [
+        "S-palmitoyl cysteine; by host ZDHHC20; partial. /evidence=ECO:0000269|PubMed:34599882."
+      ]
+    }
+  },
+  {
+    "type": "Region",
+    "location": "[1256:1262]",
+    "qualifiers": {
+      "region_name": [
+        "Short sequence motif of biological interest"
+      ],
+      "note": [
+        "Diacidic ER export motif (host COPII). /evidence=ECO:0000269|PubMed:34504087."
+      ]
+    }
+  },
+  {
+    "type": "Region",
+    "location": "[1260:1267]",
+    "qualifiers": {
+      "region_name": [
+        "Short sequence motif of biological interest"
+      ],
+      "note": [
+        "Binding to host plasma membrane localising/FERM domain proteins. /evidence=ECO:0000269|PubMed:34504087."
+      ]
+    }
+  },
+  {
+    "type": "Region",
+    "location": "[1268:1273]",
+    "qualifiers": {
+      "region_name": [
+        "Short sequence motif of biological interest"
+      ],
+      "note": [
+        "KxHxx, ER retrieval signal (COPI). /evidence=ECO:0000255|HAMAP-Rule:MF_04099, ECO:0000269|PubMed:34504087."
+      ]
+    }
+  },
+  {
+    "type": "Site",
+    "location": "[1268:1269]",
+    "qualifiers": {
+      "site_type": [
+        "mutagenized"
+      ],
+      "note": [
+        "K->A: Complete loss of COPI binding and increase in cell fusion. /evidence=ECO:0000269|PubMed:34504087."
+      ]
+    }
+  },
+  {
+    "type": "Site",
+    "location": "[1270:1271]",
+    "qualifiers": {
+      "site_type": [
+        "mutagenized"
+      ],
+      "note": [
+        "H->K: Improved COPI binding, reduced cell fusion and reduced levels of S1/S2 cleavage. /evidence=ECO:0000269|PubMed:34504087."
+      ]
+    }
+  }
+]
